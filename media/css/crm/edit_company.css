@@ -1,0 +1,5 @@
+#edit_company_tabs tr.diff th, #edit_company_tabs tr.diff td, #diff_box { background-color:#FFAE6C }
+#diff_box_container { margin-top:8px }
+#diff_box { float:left;display:inline-block;width:16px;height:16px; }
+#diff_text { float:left;color:#BD804F;margin-top:-1px;font-size:.9em;margin-left:5px }
+#edit_company_tabs th, #edit_company_tabs td { height:20px;vertical-align:middle }

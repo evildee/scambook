@@ -1,0 +1,137 @@
+@import "_partials/_tools.scss";
+@import "_partials/_tools_dashboard.scss";
+
+body {
+	background: url(/media/css/css-img/new/dashboard/bg_f9f9f9.gif) repeat-y center;
+	@media only screen and (max-width: 1000px) { // set scaling down the bg image when viewport gets smaller
+		background-size: 100%;
+	}
+	@media only screen and (max-width: 634px) { background: none; }
+}
+
+.radio-list .row { margin: 0 0 30px 0; color: $primary-color; }
+
+.m-section-heading { margin: 40px 0; }
+.m-section-heading__text { @include open-sans-light(); font-size: 18px; }
+
+
+.c-dashboard-nav {
+	list-style: none; text-align: center; padding: 0;
+	li {
+		@media only screen and (max-width: 634px) { display: inline-block; margin: 0 20px 20px 0; }
+	}
+}
+.c-dashboard-nav { margin: 30px 0 0 0; }
+.c-dashboard-nav__item { margin: 0 0 30px 0; }
+.c-dashboard-nav__link {
+	color: #979696; font-weight: bold; display: block;
+	&:hover { color: #979696;}
+}
+.c-dashboard-nav__badge {
+	position: absolute; background: #aaa; color: #fff; @include border-radius(50%); padding: 5px; top: -20px; right: emCalc(-30px); border: 3px solid #fff;
+	&.is-active { background: red; }
+}
+.c-dashboard-nav__icon {
+	margin: 0 auto 10px auto; display: block; position: relative;
+	&.c-dashboard-nav__icon--resolutions { @include dashboard-sprite (resolutions); }
+	&.c-dashboard-nav__icon--submitted { @include dashboard-sprite (submitted); }
+	&.c-dashboard-nav__icon--commented { @include dashboard-sprite (commented); }
+	&.c-dashboard-nav__icon--messages { @include dashboard-sprite (messages); }
+}
+
+.c-activity { margin: 20px 0; }
+.c-activity__date { color: #ccc; font-size: 10px; margin: 0 0 10px 0; }
+//.c-activity__desc {  }
+
+.c-balance { text-align: center; }
+.c-balance__heading { font-family: 'Open Sans', sans-serif; font-weight: 600; }
+.c-balance__heading,
+.c-balance__amount,
+.c-balance__string { margin: 0 0 20px 0; }
+.c-balance__amount { font-size: 36px; }
+//.c-balance__footing {  }
+
+.m-section-banner { display: block; margin: auto; }
+
+.activity__btn { }
+
+// Complaint Panel 
+.title {  margin: 15px 0px; }
+.claimpanel__extend {
+	@include box-shadow(inset 0px -2px 0px 1px #cfcdcd);@include background-image(linear-gradient(#ffffff 5%, #e6e6e6)); background-color:#ffffff; @include border-radius(6px); border:1px solid #ffffff; display: inline-block; color: #9c9c9c; font-size: 12px; font-weight: normal; padding: 7px 15px; text-decoration: none; display: block; clear: both; margin: 20px auto 0px; text-align: center; width: 70px;
+	&:hover { 
+		@include background-image(linear-gradient(#ffffff 5%, #c6c6c6));
+ 		background-color:#e6e6e6; color: #9c9c9c;  }
+ 	&:active { position:relative; top:1px; }
+}
+
+.c-d-complaint__cl-btn { display: inline-block; padding: 10px 0; }
+.c-d-complaint__cl-btn-icon { @include dashboard-sprite(checklistmenu); display: block; float: right; margin: -3px 0 0 5px; }
+.c-d-complaint__cl { margin: 5px 0 0; }
+.c-d-complaint__cl-item { border-bottom: 1px solid #ccc; padding: 10px 0; text-align: right; }
+.c-d-complaint__cl-icon {
+	display: inline-block; margin: 0 8px 0 12px; width: 12px; height: 12px; float: right;
+	&.is-complete { @include dashboard-sprite (complete_list); }
+}
+
+//.m-share-mini { }
+.m-share-mini__item { list-style: none; float: right; margin: 0 0 0 10px; }
+.m-share-mini__email { @include dashboard-sprite (email); }
+.m-share-mini__fb { @include dashboard-sprite (facebook); }
+.m-share-mini__twit { @include dashboard-sprite (twitter); }
+
+
+.c-d-complaint__status-icon {
+	&.is-review { @include dashboard-sprite (cstatus_review); }
+	&.is-hold { @include dashboard-sprite (cstatus_hold); }
+	&.is-pending { @include dashboard-sprite (cstatus_pending); }
+	&.is-active { @include dashboard-sprite (cstatus_active);}
+	&.is-resolved { @include dashboard-sprite (cstatus_resolved);  }
+}
+
+.c-d-progress__item {
+	@include border-radius(3px); background: #ccc; display: inline-block; float: left; height: 30px; min-width: 60px; width: 13.7%; padding: 5px; margin: 0 1px 2px; font-size: 9px; line-height: 9px; text-align: center;
+	&.is-green { @include box-shadow(inset 0px 2px 0px 0px #8af6c7); }
+	&.is-red { @include box-shadow(inset 0px 2px 0px 0px #f6bcdc); }
+	&.is-blue { @include box-shadow(inset 0px 2px 0px 0px #b1d9f6); }
+	&.is-yellow { @include box-shadow(inset 0px 2px 0px 0px #d0e463); }
+	&.is-orange { @include box-shadow(inset 0px 2px 0px 0px #feba88); }
+	&.is-grey { @include box-shadow(inset 0px 2px 0px 0px #8d8d8d); }
+	&.is-blank { background: none !important; border: 1px dashed #d6d6d6; }
+}
+
+.c-activity-counter__graph { background: #ccc; width: 93.5%; height: 25px; margin: 0 0 5px 12px;}
+.c-activity-counter__bar {
+	height: 25px; background: green;
+	&.is-25 { width: 25%; }
+	&.is-50 { width: 50%; }
+	&.is-75 { width: 75%; }
+	&.is-100 { width: 100%; }
+}
+.c-activity-counter__count { @include border-radius(50%); border: 3px solid #e578b2; width: 25px; height: 25px; background: #D80670; text-align: center; padding: 3px 0px 0px; position: relative; z-index: 2; float: left; color: #fff; }
+
+
+//.telephone--is-nodata { color: #CCCCCC; display: block; font-size: 14px; font-weight: bold; letter-spacing: 1px; text-align: center; text-transform: uppercase; }
+
+.c-call__player { display: block; background: #cccccc; width: 100%; height: 25px; margin: 5px 0px; }
+
+
+//.sentnotices--is-nodata { color: #CCCCCC; display: block; font-size: 14px; font-weight: bold; letter-spacing: 1px; text-align: center; text-transform: uppercase; }
+
+.c-sent-notices__table { border: none; width: 100%; }
+
+#npsModal { padding: 0px; }
+	.npsModal__headerbg { height: 65px; display: block; position: relative; z-index: -1; background-color: #2f2f2f; margin: 0px 0px -56px; }
+	.npsModal__header {  background: none repeat scroll 0 0 #2f2f2f; color: #D80670; display: block; font-size: 30px; margin: 0 0 24px; padding: 0 25px 10px;
+		.nps__white { color: #ffffff; }
+	 }
+	 .npsModal__boxes { margin: 0px 16px 10px !important;}
+	.npsModalcontent {}
+.npsbox { }
+	.nps__head { text-align: center;}
+	.nps__text { display: block; position: relative; margin: -100px 0 0 0;}
+	.nps__textbig { color: #545454; display: block; font-size: 18px; font-weight: bold; line-height: 28px; margin: 5px 0; }
+	.nps__textsm { line-height: 21px; color: #777777; display: block; font-size: 16px; }
+	.nps__btn { display: block; margin: 45px 0;}
+	.nps__foot { }
+	.nps__head--img { max-width: 482px; width: 100%; }

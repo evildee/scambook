@@ -1,0 +1,55 @@
+@import "compass";
+@import "_settings.scss";
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic);
+
+// General new Sprites
+$icon-bg_marker_sort-spacing: 20px; // add spacing to this graphic in the sprite map
+$icon-layout: smart; // initialize smart sprite map layout. default is vertical
+@import "new/icon/*.png"; // create sprite map in this directory
+
+@mixin new-sprite($name) {
+	@include icon-sprite($name); // background url
+	height: icon-sprite-height($name); // height of sprite
+	width: icon-sprite-width($name); // width of sprite
+	display: block;
+}
+@mixin new-sprite-only($name) {
+	@include icon-sprite($name); // background url
+}
+
+// @group test rules */
+// these rules are setup to have dynamic colors for inspecting. ex. .tbs(red);
+
+@mixin tbs ($test-color) {
+	box-shadow: inset 0 0 1px $test-color;
+}
+@mixin tbg ($test-color) {
+	background: $test-color;
+}
+// @end */
+
+%float-shadow { @include box-shadow(0 0 20px rgba(0,0,0,.2)); }
+%drop-shadow { @include box-shadow(0 2px 0 #eee); }
+
+@mixin open-sans-light () {
+	font-family: 'Open Sans', sans-serif; font-weight: 300;
+}
+
+@mixin stroke-shadow () {
+	text-shadow:
+		2px 2px 0 #fff,
+		-2px -2px 0 #fff,
+		4px 4px 4px rgba(0,0,0,.2),
+		-4px -4px 4px rgba(0,0,0,.2);
+}
+
+@mixin stroke-shadow-small () {
+	text-shadow:
+		2px 2px 0 #fff
+		-2px -2px 0 #fff
+}
+
+// @group shadows */
+@mixin light-shadow ($alpha: .3) {
+	box-shadow: 0 2px 2px rgba(0,0,0,$alpha); -webkit-box-shadow: 0 2px 2px rgba(0,0,0,$alpha);
+}

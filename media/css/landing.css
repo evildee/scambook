@@ -1,0 +1,26 @@
+.icons-sprite { background: url('/media/css/css-img/icons-sc4b28c011a.png') no-repeat; }
+
+.signup-sprite { background: url('/media/css/css-img/signup-s584843bc28.png') no-repeat; }
+
+#landing { /* end landing-content */ }
+#landing .landing-content { padding: 0 100px; background: #fff; height: auto; padding: 41px 50px; width: 640px; margin: 0 auto; /* end subform */ }
+#landing .landing-content h1 { color: #000; font-size: 24px; }
+#landing .landing-content .landing-heading-1 { background: url(/media/css/css-img/landing-heading-l.png) no-repeat left center white; font-size: 30px; padding: 0 0 0 30px; color: #d9007f; margin: 10px 0; }
+#landing .landing-content #category-select { background: transparent; padding: 20px 0; height: 40px; border-top: 1px #ccc solid; border-bottom: 1px #ccc solid; margin: 0 0 10px 0; }
+#landing .landing-content #category-select label { display: block; float: left; width: 197px; height: 40px; line-height: 40px; }
+#landing .landing-content #category-select .landing-main-btns { float: right; margin: 0; width: 410px; }
+#landing .landing-content #category-select .landing-main-btns input { width: 133px; margin: 0; }
+#landing .landing-content textarea { font-size: 16px; padding: 10px; width: 95%; }
+#landing .landing-content #subform { width: auto; /* end all */ }
+#landing .landing-content #subform div { width: 100%; }
+#landing .landing-content #subform .all { background: transparent; }
+#landing .landing-content #subform .all .col-2a, #landing .landing-content #subform .all .col-2b { background: transparent; width: auto; padding: 0; }
+#landing .landing-content #subform .all .col-2a .details label, #landing .landing-content #subform .all .col-2b .details label { display: block; float: left; width: 190px; height: 40px; line-height: 40px; }
+#landing .landing-content #subform .all .col-2a .details input, #landing .landing-content #subform .all .col-2a .details textarea, #landing .landing-content #subform .all .col-2a .details select, #landing .landing-content #subform .all .col-2b .details input, #landing .landing-content #subform .all .col-2b .details textarea, #landing .landing-content #subform .all .col-2b .details select { width: 405px; float: right; display: block; padding: 10px 0 5px 10px; }
+#landing .landing-content #subform .all .col-2a .details select, #landing .landing-content #subform .all .col-2b .details select { padding: 0; }
+#landing .landing-content #subform .all .col-2a .details .half, #landing .landing-content #subform .all .col-2b .details .half { width: 100%; margin: 0; }
+#landing .landing-content #subform .all .col-2a .details .general-form, #landing .landing-content #subform .all .col-2b .details .general-form { width: auto; }
+#landing .landing-content #subform .all .col-2a input#btn-next1, #landing .landing-content #subform .all .col-2b input#btn-next1 { float: right; }
+#landing .landing-content .landing-footer { border-bottom: 1px #ccc solid; }
+
+/* end #landing */

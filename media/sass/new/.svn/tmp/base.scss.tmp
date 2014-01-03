@@ -1,0 +1,248 @@
+@import "_partials/_tools.scss";
+@import "_partials/_app.scss";
+
+
+// site header //////////////////////////////////////////////
+
+.site-header { clear: both; position: relative; }
+.site-header__row-1 { position:fixed; top:0; z-index:10;  width:100%; height: 41px; line-height:38px; background: url(../css-img/new/bg-header-row1.jpg) repeat-x; @include light-shadow (0.4); }
+.site-header__shelf { width: 980px; padding: 0px 10px; margin: 0 auto; }
+.site-header__logo-slide-container { width: 41px; height: 41px; float: left; background: #fff; margin-right: 14px; padding-left:3px; border-left: 1px solid #b4b5b6 ; border-right: 1px solid #b4b5b6; display: none; 
+	&:hover { @include box-shadow(0px 0px 2px 2px #b9b9b9); }
+}
+.site-header__logo-slide {
+	@include new-sprite (logo-slide); margin: 8px auto 0;
+}
+.site-header__row-2 { height: 48px; background: url(../css-img/new/bg-header-row2.jpg) repeat-x; margin-top:41px; }
+.site-header__shelf--row-2 { width: 980px; height: 48px; padding: 0px 10px; margin:0 auto; display: box; overflow: auto; }
+.site-header__button-signup { margin: 4px 0 0 0; }
+.site-header__logo { @include new-sprite (logo);  margin-top: 15px; float: left; }
+
+
+// Number of Reported Damages
+#c-purse-counter { float: left; line-height: 18px; margin: 10px 0 0 0; }
+.c-purse-counter__usd { float: left; margin: 0 5px 0 0; font-size: 16px; }
+.c-purse-counter__img { float: left; }
+.c-purse-counter__string { line-height: 24px; float: left; margin-left: 5px; }
+
+// Search bar on top header
+.m-search { float: right; padding: 7px 12px 0 12px; width:auto; height: 41px; border-left: 1px solid #bbbbbd; border-right: 1px solid #bbbbbd; }
+.m-search__input { background: #e9e9e9 !important; border: none; width: 165px !important; border:none !important; height: 26px !important; float:left !important; box-shadow: 2px 2px 2px #767676 inset !important; padding: 0 10px !important; color: #757575 ; font-size:13px !important; @include border-radius(5px); @include animate-background(); @include animate-width();
+	&:focus { background: #ffffff !important; width: 220px !important; box-shadow: 2px 2px 2px #6a6a6a inset !important; }
+}
+.m-search__icon { @include new-sprite (icon-search); float: right; margin: 3px 0 0 10px; border: none; text-indent: -9000px; text-transform: capitalize;}
+
+// dashboard btn on top header
+.m-btn-dashboard { float: right; border-left: 1px solid #bbbbbd; padding: 12px 10px 0 10px; height: 41px; }
+.m-btn-dashboard__icon { @include new-sprite (dashboard); display: block; }
+
+// login on top header  *for drop down absolute position
+.m-login { float: right; border-left: 1px solid #bbbbbd; height: 41px; padding: 0 10px 0 10px; position:relative; }
+
+
+// dropdown box with pointer / being used for multiple location.
+.m-dropdown-box { padding: 15px 15px 10px; background: #fff; @include border-radius(5px); @include box-shadow(1px 1px 2px 1px #5f5f5f); 
+position: absolute; top:45px; right:0px; z-index:1; }
+
+.m-dropdown-box__login { width:230px; }
+.m-dropdown-box__setting { width:192px; }
+
+
+// dropdown setting menu ul li style
+.m-dropdown-setting { list-style: none outside none; }
+.m-dropdown-setting__menu { margin-bottom: 4px;}
+.m-dropdown-setting__a { color:#525252; font-size:14px; }
+.m-dropdown-setting__split { border-top:1px solid #cdcdcd; height:2px; width:100%;}
+
+// social logos
+.m-social-logos { float: left; margin: 15px 0 0 50px; }
+
+.m-social-logos__fb,
+.m-social-logos__twitter,
+.m-social-logos__google,
+.m-social-logos__youtube,
+.m-social-logos__itunes {
+	float: left; opacity: 0.4; 
+	&:hover { opacity: 1; }
+}
+.m-social-logos__fb { @include new-sprite (social_fb); margin-right: 25px; }
+.m-social-logos__twitter { @include new-sprite (social_twitter); margin: 2px 25px 0 0; }
+.m-social-logos__google { @include new-sprite (social_google); margin: 2px 25px 0 0; }
+.m-social-logos__youtube { @include new-sprite (social_youtube);  margin-right: 25px; }
+.m-social-logos__itunes { @include new-sprite (social_itunes); margin-right: 25px; }
+
+// social login sumit
+.m-social-login { @include border-radius(5px); cursor: pointer; border:none; margin-left:5px; 
+	&:hover { opacity:0.8; }
+}
+.m-social-login__fb { @include new-sprite (login_fb);  }
+.m-social-login__gmail { @include new-sprite (login_gmail); }
+
+
+// main nav menu on top header
+
+.m-menu-top {
+	float: right; height: 48px;
+	ul li { margin-left: 30px; line-height: 48px; display: inline-block;
+		// For IE 7 
+		zoom: 1;
+		*display: inline;
+	}
+	a { color: #ababab; 
+	&:hover, &.active { color: #fff; }
+	}
+}
+
+// avatar small 
+.m-avatar-s { width: 23px; height: 23px; margin: 8px 8px; @include border-radius(5px); @include box-shadow(0px 1px 1px 1px #b9b9b9); background:#fff; overflow:hidden;  }
+.m-avatar-s__img { width: 23px; vertical-align: top; }
+
+.m-setting-icon-wrapper { position:relative; }  //need for drop down function.
+.m-setting-icon {  @include new-sprite (setting-account); margin: 13px 0 0 10px; cursor: pointer; 
+	&:hover { opacity: 0.8; }
+}
+
+
+// dropdown menu for the country select 
+
+.m-dropdown-language { margin-left:10px; }
+/* #country-select { position: absolute; z-index:9999; top: 8px; margin-left:50%; left:-190px; width: 180px; } */
+
+#country-select { display:block; height:30px;}
+/* rought form styles for when JS is disabled */
+#country-select form { width: 180px; padding: 0; }
+#country-select select, #country-select input { display: inline; padding: 0; margin: 0; }
+
+.dropdown { margin-top:11px; }
+.dropdown dd { position: relative;}
+.dropdown a { text-decoration: none; outline: 0; font: 12px Arial, Helvetica, sans-serif; display: block; width: 75px; overflow: hidden; }
+.dropdown dt { margin:0; }
+.dropdown dt a { height:25px; padding: 0; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; color: #434343;}
+.dropdown dd ul li { padding: 5px 0 10px 10px; }
+.dropdown dt a.active { -webkit-border-bottom-left-radius: 0; -webkit-border-bottom-right-radius: 0; -moz-border-radius-bottomleft: 0; -moz-border-radius-bottomright: 0; border-bottom-left-radius: 0; border-bottom-right-radius: 0;  color: #434343; }
+.dropdown dd ul {  background: #dfdfdf; color: #434343; display: none; position: absolute; z-index: 999; top: 0; left: -10px; padding: 2px 0 5px 0; list-style: none; border-top: none; margin: 0; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomright: 5px; -moz-border-radius-bottomleft: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; -moz-box-shadow: 0 3px 7px rgba(0,0,0,.5); -webkit-box-shadow: 0 3px 7px rgba(0,0,0,.5); box-shadow: 0 3px 7px rgba(0,0,0,.5); }
+.dropdown dd ul li a { padding: 0; }
+.dropdown dd ul li a span, .dropdown dt a span { float: left; width: 16px; height: 11px; margin: 2px 6px 0 0; background-image: url(../css-img/flags.png); background-repeat: no-repeat; cursor: pointer; }
+.us a span { background-position: 0 0 }
+.es a span { background-position: -16px 0 }
+.fr a span { background-position: -32px 0 }
+.de a span { background-position: -48px 0 }
+.nl a span { background-position: -64px 0 }
+.nl a span { background-position: -64px 0 }
+.dropdown dd ul li a em, .dropdown dt a em { font-style: normal; float: left; width: 50px; cursor: pointer; }
+.dropdown dd ul li a em { color: #434343; }
+.dropdown dd ul li a:hover { background-color: rgba(255,255,255,.1); }
+.dropdown dd ul li a:hover em { color: #D80670; }
+
+// end site header ////////////////////////////////////////////////////
+
+
+
+body {  }
+
+.break-word { word-wrap: break-word; }
+
+// clearfix
+.clearfix {
+	display: inline-block; height: 1%; display: block;
+	&:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+}
+
+// Micro clearfix
+.cf:before, .cf:after { content: ""; display: block; }
+.cf:after { clear: both; }
+.cf { zoom: 1; }
+
+// THESE ARE SET IN FOUNDATION GLOBAL. IT'S HERE FOR REFERENCE
+// .left         { float: left !important; }
+// .right        { float: right !important; }
+// .text-left    { text-align: left !important; }
+// .text-right   { text-align: right !important; }
+// .text-center  { text-align: center !important; }
+// .text-justify { text-align: justify !important; }
+// .hide         { display: none; }
+
+hr { @include box-shadow(1px 1px 0 #fff); }
+.block { display: block; }
+
+.no-margin { margin: 0; }
+.margin-top-5 { margin-top: 5px; }
+.margin-top-20 { margin-top: 20px; }
+.margin-right-20 { margin-right: 20px; }
+.margin-bottom-20 { margin-bottom: 20px; }
+.margin-left-20 { margin-left: 20px; }
+
+.center { margin: 0 auto; }
+
+.bold { font-weight: bold; }
+
+.required:after { content: '*'; color: red; margin: 0 0 0 5px; margin: 0 0 0 10px\9; }
+
+// foundation panel customization //////////////////////////////////////
+.panel { border-bottom: 4px solid #e4e4e4; position: relative; @include border-radius(2px); }
+// .panel__heading {  }
+.panel__heading-text { color: #d80670 !important; }
+// .panel__heading-desc-left {  }
+.panel__heading-desc-right { text-align: right; }
+// .panel__footing {  }
+.panel__more-link { width: inherit; display: block; text-align: center; }
+// end /////////////////////////////////////////////////////////////////
+
+$resolved: #01b734;
+$in-dispute: #d69e01;
+$on-hold: #b0b0b0;
+$pending: $primary-color;
+// ribbon set for top right
+.m-ribbon--container { position: absolute; right: 0; top: -10px; }
+.m-ribbon {
+	position: relative; text-align: right; padding: 10px 40px; @include border-radius(2px 0 0 2px); margin: 0 -10px 0 0; color: #fff; text-shadow: 1px 1px 0 rgba(0,0,0,.4);
+	&:after { content: ' '; position: absolute; width: 0; height: 0; right: 0px; top: 100%;
+	border-width: 10px 5px; border-style: solid; }
+	&.is-resolved {
+		background-color: $resolved; // set color to a variable and link it here and to :after;
+		&:after { border-color: darken($resolved, 20%) transparent transparent darken($resolved, 20%); }
+	}
+	&.is-in-dispute {
+		background-color: $in-dispute; // set color to a variable and link it her and to :after;
+		&:after { border-color: darken($in-dispute, 20%) transparent transparent darken($in-dispute, 20%); }
+	}
+	&.is-on-hold {
+		background-color: $on-hold; // set color to a variable and link it here and to :after;
+		&:after { border-color: darken($on-hold, 20%) transparent transparent darken($on-hold, 20%); }
+	}
+	&.is-pending {
+		background-color: $pending; // set color to a variable and link it here and to :after;
+		&:after { border-color: darken($pending, 20%) transparent transparent darken($pending, 20%); }
+	}
+}
+
+// message moudule simple
+.m-message-thread { @include border-radius(2px); padding: 30px; background: #f9f9f9; border: 1px solid #e0e0e0; }
+.m-message-thread__post--not-me { @include box-shadow(-3px 0 0 $primary-color); padding-left: 10px; }
+.m-message-thread__post--me { @include box-shadow(-3px 0 0 $body-font-color); padding-left: 10px; }
+
+// message module avatar
+.m-message-thread__post { margin: 10px; }
+.m-message-thread__post,
+.m-message-thread__message-container { overflow: hidden; _overflow: visible; zoom: 1; }
+.m-message-thread__from-img { margin: 0 0 20px 0; }
+.m-message-thread__img { float: left; margin-right: 10px; }
+.m-message-thread__img img { display: block; }
+.m-message-thread__imgExt { float: right; margin-left: 10px; }
+
+// extending foundation button
+.button { text-shadow: 1px 1px 0 rgba(0,0,0,.4) }
+// button created with foundtion
+.button-2 {
+	@include button-base;
+	background-color: rgb(255,255,255);
+	@include filter-gradient(#ffffff, #f2f2f2, vertical);
+	@include background-image(linear-gradient(top, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%));
+	color: $body-font-color; border-color: #ccc; text-shadow: 1px 1px 0 #fff;
+	&:hover { color: $body-font-color; }
+}
+
+
+//text 
+.less-visible { color:#9e9e9e; } // same as how subheaders work in foundation, we use this for regular text.
+ 

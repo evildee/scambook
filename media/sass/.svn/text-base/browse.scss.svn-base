@@ -1,0 +1,235 @@
+@import "tools.scss";
+@import "compass";
+// along with the browse page... some of these rules are used in the dashboard!
+
+.hp-width {
+	.counter-wrapper { background: url(/media/css/css-img/bg-shadow-circle.png) no-repeat right bottom; background-size: 600px; width: auto; height: 350px; }
+	.counter-display-list {
+		float: left;
+		.bar-outline {
+			width: 100px; height: 10px; border: 1px solid #e8e8e8;
+			.bar { height: 10px; background: #38c301; }
+			.b10 { width: 10px; -moz-animation-duration: 5s; -moz-animation-name: scale10; }
+			.b20 { width: 20px; -moz-animation-duration: 5s; -moz-animation-name: scale20; }
+			.b30 { width: 30px; }
+			.b40 { width: 40px; }
+			.b50 { width: 50px; }
+			.b60 { width: 60px; }
+			.b70 { width: 70px; }
+			.b80 { width: 80px; }
+			.b90 { width: 90px; }
+			.b100 { width: 100px; }
+			// @-moz-keyframes scale20 {
+			// 	from { width: 0px; }
+			// 	to { width: 20px; }
+			// }
+			// @-moz-keyframes scale10 {
+			// 	from { width: 0px; }
+			// 	to { width: 10px; }
+			// }
+		}
+		h2 .icon {width: 22px; height: 22px; margin: 0 8px 0 0; background-position: -52px -195px;}
+		.map-image { background: url(/media/css/css-img/map-us.gif) no-repeat; width: 199px; height: 107px; margin: 20px 0; }
+		ol {
+			list-style: decimal; margin: 0 0 0 20px;
+			li { margin: 0px 0 5px 30px; }
+		}
+	}
+	.counter-display {
+		margin: 0 0 60px 50px; float: left; width: 560px; height: 240px; padding: 40px; border-radius: 8px; font-family: "Trebuchet MS", Helvetica, sans-serif; color: #000; text-shadow: 1px 1px 0 #fff;
+		.counter-ul {
+			float: right;
+			li { text-align: right; }
+			.label { font-size: 22px; margin: 5px 0 20px 0; }
+			.usd { line-height: 40px; float: left; font-size: 32px; margin: 0 10px 0 0; }
+			.counter-container > span:first-of-type { border-radius: 4px 0 0 4px; }
+			.counter-container > span:last-of-type { border-radius: 0 4px 4px 0; }
+			#counter2{ float: right; }
+		}
+	}
+}
+#browse {
+	h1 { font-size: 28px; }
+	h2 {margin-bottom:0px;}
+	.sort { margin: 20px 0 0 0; }
+	.filters {
+		border: 1px solid #eee; float: left; width: 570px; margin: 10px 0 0 0; padding: 0 20px 20px 20px; background: #fafafa; box-shadow: inset 0 0 5px #eee; -webkit-box-shadow: inset 0 0 5px #eee; border: 1px solid #e8e8e8;
+		.row1, .row2, .row3 {
+			float: left; width: 160px;
+			strong { margin: 15px 0; display: block; }
+		}
+		.row2 {
+		}
+		.row3 {
+			width: auto;
+			input[type="text"] { height: 20px; width: 80px; }	
+		}
+		.button1 { float: right; width: 100px; padding: 10px; margin: 30px 0 0 0; }
+	}
+	.pagination { margin: 10px 0; }
+	.list-container {
+		.side-display-container {
+			margin: 0 0 30px 0; width: 600px; border-bottom: 1px solid #e8e8e8; padding: 0 0 30px 0;
+			.side-image {
+				font-size: 10px; float: left; margin: 40px 0 0 0;
+				.counter { font-size: 20px; }
+				.button {
+					margin: 10px 0 0 0 !important; padding: 3px 8px; border: 1px solid #ccc; border-radius: 3px;
+					a { color: $global-font-color; }	
+				}
+			}
+			.side-image > ul > li {
+				margin: 0 !important;
+			}
+		}
+		.side-display {
+			margin: 0 0 0 70px;
+			h2 {
+				margin: 0; font-size: 22px; font-weight: normal; color: #26adbb; position: relative;
+				.icon { margin: 0 5px 0 0; }
+				.icon.company { background-position: -82px 2px; }
+				.icon.person { background-position: -82px -17px; }	
+				.icon.phone { background-position: -82px -37px; }
+				.indicator { color: #fff; font-size: 10px; padding: 0 15px; height: 16px; line-height: 16px; border-radius: 3px; position: absolute; margin: 0 0 0 10px; }
+				.indicator.pending { background: #b8006c; }
+				.indicator.dispute { background: #d6a000; }
+				.indicator.on-hold { background: #b0b0b0; }
+				.indicator.resolved { background: #01b73e; }
+			}
+			p {
+				a {
+					color: #666;
+					&:hover { color: $hover; }
+				}
+			}
+			.side-image { margin: 0 10px 0 0; border: 1px solid #eee; padding: 3px; box-shadow: 2px 2px 2px #eee; max-height: 40px;overflow: hidden; 
+				img {width:50px;}
+			}
+            .report-title-main {margin-left:60px; }
+			ul.extra-data li {
+				background: #ebebeb; font-size: 10px; float: left; display: inline; padding: 5px 8px; margin: 0 10px 0 0;
+				a { color: $global-font-color; }
+				}
+			.user-data { height: 1px; }
+			.user-data > ul li {
+				display: inline; margin: 0 10px 0 0; font-size: 10px; color: #999;
+				.avatar { width: 16px; }	
+			}
+		}
+	}
+	
+	.column-2-side {
+		padding-bottom: 100px;
+		// needs latest Compass, add '@import "compass"' to your scss
+		@include filter-gradient(#ebebeb, #ebebeb, vertical); // IE6-9
+		@include background-image(linear-gradient(top,  rgba(235,235,235,1) 0%,rgba(235,235,235,0) 15%));
+		.shadow-mask {
+			width: 100%; height: 200px; position: absolute; left: 0;
+			// needs latest Compass, add '@import "compass"' to your scss
+			@include filter-gradient(#fdfdfd, #fdfdfd, vertical); // IE6-9
+			@include background-image(linear-gradient(top,  rgba(253,253,253,1) 8%,rgba(253,253,253,0) 100%));
+		}
+		/* side display links for blog entries */
+		.blog {
+			line-height: 16px;
+			.side-display a {
+				color: #575757;
+				&:hover { color:#B8006C; }
+			}
+		} 
+		.shadow-mask.bottom {
+			bottom: 0;
+			// needs latest Compass, add '@import "compass"' to your scss
+			@include filter-gradient(#fdfdfd, #fdfdfd, vertical); // IE6-9
+			@include background-image(linear-gradient(top,  rgba(253,253,253,0) 0%,rgba(253,253,253,1) 100%));
+		}
+		h4 { position: relative; }
+		.most-commented-widget {
+			position: relative; z-index: 1;
+			ul {
+				li {
+					height: auto; margin: -10px 0 0 0; padding: 15px 30px 20px 10px; position: relative;
+					a { color: #000; }
+					.counter {
+						background: #000; color: #fff; padding: 4px 8px; position: absolute; right: -10px;
+						.tri { position: absolute;bottom: -9px; left: 15px; width: 0px; height: 0px; border-style: solid; border-width: 10px 10px 0 0px; border-color: #000000 transparent transparent transparent;
+						 }
+					}
+					a:hover {color:#888;}
+				}
+				/* ie fix for code below */
+				li { background: #FE8085; }
+				li + li { background: #F8987B; width: 75%; }
+				li + li + li { background: #F8E17B; width: 65%; }
+				li + li + li + li { background: #D7F58E; width: 55%; }
+				li + li + li + li + li { background: #6FD9F8; width: 45%;}
+				/* end ie fix */
+				li:first-child { margin: 0; }
+				li:nth-child(1) { background: rgba(255,76,83,.7); }
+				li:nth-child(2) { background: rgba(247,110,68,.7); width: 75%; }
+				li:nth-child(3) { background: rgba(247,214,68,.7); width: 65%; }
+				li:nth-child(4) { background: rgba(199,242,95,.7); width: 55%; }
+				li:nth-child(5) { background: rgba(51,202,247,.7); width: 45%; }
+			}
+		}
+		.trending-searches-widget {
+			position: relative; margin: 0 0 50px 0;
+			ul > li > a { color:#5d5d5d; background: #eee; display: block; float: left; padding: 5px 8px; margin: 5px 5px 5px 0; }
+			ul > li > a:hover { color:#fff; background: #b8006c;}
+		}
+		.video{
+			margin: 0 0 20px 0;
+			h4 { margin: 0 0 10px 0; }
+			p { line-height: 1.4; font-size: 11px }
+			.button1 { display:block; margin: 10px 0 0 0; padding: 10px 30px; }
+		}
+
+	}
+	.column-2-main {
+	    .list-container {
+			.report-sml { display: block; float: left; font: 13px/23px Verdana,Geneva,sans-serif; margin: 0 6px 6px 0; min-height: 90px; width: 149px; }
+		}
+	}
+	.page-header {
+		position: relative; width: 620px;
+		h2.main-tout,h2 {
+			width: auto; float:left
+	   }
+	}
+	#toggle_grid_list {
+		width: auto; display: block; height: 25px; position: relative; right: 25px; top: 0; margin: 5px 0 0 0; float: right; border: 0 none; border-radius: 3px 3px 3px 3px; padding: 0; list-style: none;
+	    li {
+			 float: left; padding: 0; width: 78px; margin: 0 5px 0 0; display: inline-block; display: inline;
+				 
+        }
+		li a  {
+			display: inline-block; float: right; height: 25px; line-height: 25px; width: 35px; padding: 0 5px 0 29px; font-size: 10px; color: #666; margin: 0 5px 0 0; position: relative;
+		}	
+        li.tgrid {
+			// needs latest Compass, add '@import "compass"' to your scss
+			background-color: rgb(255,255,255); // Old browsers
+			@include filter-gradient(#ffffff, #f2f2f2, vertical); // IE6-9
+			@include background-image(linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%));
+		}
+        li.tlist, li:hover{
+        	color: #fff; text-shadow: none;
+			// needs latest Compass, add '@import "compass"' to your scss
+			background-color: rgb(237,85,152); // Old browsers
+			@include filter-gradient(#ed5598, #b9026d, vertical); // IE6-9
+			@include background-image(linear-gradient(top,  rgba(237,85,152,1) 0%,rgba(185,2,109,1) 100%));
+		}		
+		li:hover, li a:hover {
+			color: #fff;
+			-moz-transition-property: color, background;
+			-moz-transition-duration: .15s, .15s;
+			-moz-transition-timing-function: linear;
+			-webkit-transition-property: color, background;
+			-webkit-transition-duration: .15s, .15s;
+			-webkit-transition-timing-function: linear;
+		}
+		li.tlist a {
+			background: url(/media/css/css-img/sprites.png) no-repeat -75px -113px; font-weight: bold; color: #fff; text-shadow: none; }	
+		li.tgrid a {	
+			background: url(/media/css/css-img/sprites.png) no-repeat -75px -89px; font-weight: normal; }	
+	}
+}

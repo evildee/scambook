@@ -1,0 +1,116 @@
+@import "compass";
+
+// General Sprites
+$icons-bg_marker_sort-spacing: 20px; // add spacing to this graphic in the sprite map
+$icons-layout: smart; // initialize smart sprite map layout. default is vertical
+@import "icons/*.png"; // create sprite map in this directory
+
+@mixin sprite-css($name) {
+	@include icons-sprite($name); // background url
+	height: icons-sprite-height($name); // height of sprite
+	width: icons-sprite-width($name); // width of sprite
+}
+@mixin sprite-css-only($name) {
+	@include icons-sprite($name); // background url
+}
+
+// Signup Sprites
+@import "signup/*.png"; // create sprite map in this directory
+$signup-spacing: 20px; // add spacing to this graphic in the sprite map
+$signup-layout: smart; // initialize smart sprite map layout. default is vertical
+
+@mixin sprite-signup($name) {
+	@include signup-sprite($name); // background url
+	height: signup-sprite-height($name); // height of sprite
+	width: signup-sprite-width($name); // width of sprite
+}
+
+@mixin sprite-signup-only($name) {
+	@include signup-sprite($name); // background url
+}
+
+
+// @group test rules */
+// these rules are setup to have dynamic colors for inspecting. ex. .tbs(red);
+
+@mixin tbs ($test-color) {
+	box-shadow: inset 0 0 1px $test-color;
+}
+@mixin tbg ($test-color) {
+	background: $test-color;
+}
+// @end */
+
+@mixin normal-font {
+	font-size: 12px;
+}
+@mixin medium-font {
+	font-size: 14px;
+}
+@mixin medium-large-font {
+	font-size: 16px;
+}
+@mixin large-font {
+	font-size: 18px;
+}
+
+@mixin x-large-font {
+	font-size: 22px;
+}
+@mixin xx-large-font {
+	font-size: 24px;
+}
+$sprite-file: url(/media/css/css-img/sprites.png) no-repeat;
+$global-font-color: #5d5d5d;
+$hover: #B9006C;
+$link: #00A8A8;
+$light-text: #929292;
+$subdue: #ccc;
+$head-color: #557474;
+$link-dark: #343434;
+$link-dark-hover: #d8006f;
+$link-specific: #d8006f;
+
+
+@mixin animate ($what) { // set @what with property
+	-moz-transition-property: color, $what;
+	-moz-transition-duration: .15s, .15s;
+	-moz-transition-timing-function: linear;
+	-webkit-transition-property: color, $what;
+	-webkit-transition-duration: .15s, .15s;
+	-webkit-transition-timing-function: linear;
+}
+
+@mixin animate-width ($alpha: .4s) { // animate width
+	transition: width $alpha;
+	-moz-transition: width $alpha; /* Firefox 4 */
+	-webkit-transition: width $alpha; /* Safari and Chrome */
+	-o-transition: width $alpha;
+}
+
+@mixin animate-background ($alpha: .25s) { // animate width
+	-moz-transition-property: color, background;
+	-moz-transition-duration: $alpha, $alpha;
+	-moz-transition-timing-function: linear;
+}
+
+
+@mixin stroke-shadow () {
+	text-shadow:
+		2px 2px 0 #fff,
+		-2px -2px 0 #fff,
+		4px 4px 4px rgba(0,0,0,.2),
+		-4px -4px 4px rgba(0,0,0,.2);
+}
+
+@mixin stroke-shadow-small () {
+	text-shadow:
+		2px 2px 0 #fff
+		-2px -2px 0 #fff
+}
+
+
+// @group shadows */
+@mixin light-shadow ($alpha: .3) {
+	box-shadow: 0 2px 2px rgba(0,0,0,$alpha); -webkit-box-shadow: 0 2px 2px rgba(0,0,0,$alpha);
+}

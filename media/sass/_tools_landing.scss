@@ -1,0 +1,138 @@
+@import "compass";
+
+// General Sprites
+//$blur-sort-spacing: 20px; // add spacing to this graphic in the sprite map
+$blur-layout: smart; // initialize smart sprite map layout. default is vertical
+@import "landing/landing_01/blur/*.png"; // create sprite map in this directory
+
+@mixin sprite-blur($name) {
+	@include blur-sprite($name); // background url
+	height: blur-sprite-height($name); // height of sprite
+	width: blur-sprite-width($name); // width of sprite
+}
+
+// landing_02 Sprites
+@import "landing/landing_02/landing_02_icons/*.png"; // create sprite map in this directory
+$landing_02_icons-spacing: 20px; // add spacing to this graphic in the sprite map
+$landing_02_icons-layout: smart; // initialize smart sprite map layout. default is vertical
+
+@mixin sprite-landing_02($name) {
+	@include landing_02_icons-sprite($name); // background url
+	height: landing_02_icons-sprite-height($name); // height of sprite
+	width: landing_02_icons-sprite-width($name); // width of sprite
+}
+
+
+// landing Sprites
+@import "landing/landing_icons/*.png"; // create sprite map in this directory
+$landing_icons-layout: smart; // initialize smart sprite map layout. default is vertical
+
+@mixin sprite-landing($name) {
+	@include landing_icons-sprite($name); // background url
+	height: landing_icons-sprite-height($name); // height of sprite
+	width: landing_icons-sprite-width($name); // width of sprite
+}
+
+
+// @group test rules */
+// these rules are setup to have dynamic colors for inspecting. ex. .tbs(red);
+
+@mixin tbs ($test-color) {
+	box-shadow: inset 0 0 1px $test-color;
+}
+@mixin tbg ($test-color) {
+	background: $test-color;
+}
+// @end */
+
+
+
+// @group forms */
+// general 2 column form setup to dynamically specified label width. ex. .form-general(100px);
+@mixin form-general ($label-width) {
+	label { width: $label-width; float: left; text-align: right; }
+	.input-panel { margin: 0 0 0 $label-width + 10; }
+}
+// @end */
+
+// @group variables */
+$border: 1px solid #d7d8db;
+// @end */
+	
+@mixin animate ($what) { // set @what with property
+	-moz-transition-property: color, $what;
+	-moz-transition-duration: .15s, .15s;
+	-moz-transition-timing-function: linear;
+	-webkit-transition-property: color, $what;
+	-webkit-transition-duration: .15s, .15s;
+	-webkit-transition-timing-function: linear;
+}
+
+@mixin transition ($what) { // set @what property
+	-webkit-transition: $what; 
+	-moz-transition: $what;
+	-ms-transition: $what;
+	-o-transition: $what;
+}
+
+@mixin rotate ($deg) {
+	transform: rotate($deg);
+	-ms-transform: rotate($deg);
+	-webkit-transform: rotate($deg);
+	-o-transform: rotate($deg);
+}
+
+// @group shadows */
+@mixin light-shadow ($alpha: .3) {
+	box-shadow: 0 2px 2px rgba(0,0,0,$alpha); -webkit-box-shadow: 0 2px 2px rgba(0,0,0,$alpha);
+}
+@mixin hover-shadow () {
+	box-shadow: 0 0 5px #999; -webkit-box-shadow: 0 0 5px #999;
+}
+
+
+@mixin medium-shadow ($alpha: .7) {
+	box-shadow: 0 2px 2px rgba(0,0,0,$alpha); -webkit-box-shadow: 0 2px 2px rgba(0,0,0,$alpha);
+}
+
+@mixin green-box-shadow () {
+	box-shadow: 0 0 8px rgba(48, 127, 0, 1); -webkit-box-shadow: 0 0 5px rgba(48, 127, 0, 1);
+}
+
+
+@mixin font-insect ($a, $b, $c, $d) {	
+	text-shadow: $a $b $c $d;
+}
+
+%light-gradient {
+	// needs latest Compass, add '@import "compass"' to your scss
+	background-color: #ffffff; // Old browsers
+	@include background-image(linear-gradient(top,  #ffffff 0%,#f8f8f8 100%));
+}
+@mixin light-gradi {
+	@extend %light-gradient;
+}
+
+
+@mixin bcr { // box-container-round
+	@include border-radius(12px); border-top: $border; @include light-shadow(0.4);
+	@extend %light-gradient;
+}
+
+@mixin inset {
+	@include box-shadow(#333 1px 1px 2px inset); background: #ebebeb;
+}
+
+@mixin stroke-shadow () {
+	text-shadow:
+		2px 2px 0 #fff,
+		-2px -2px 0 #fff,
+		4px 4px 4px rgba(0,0,0,.2),
+		-4px -4px 4px rgba(0,0,0,.2);
+}
+
+@mixin stroke-shadow-small () {
+	text-shadow:
+		2px 2px 0 #fff,
+		3px 3px 3px rgba(0,0,0,.2)
+}

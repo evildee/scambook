@@ -1,0 +1,5 @@
+.gradient { filter: none; }
+
+.site-header__row-2 { height: auto !important; }
+
+.site-header__row-2-topbar { margin-bottom: 0px; }

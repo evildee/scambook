@@ -1,0 +1,12 @@
+@import "compass";
+
+//Informational pages Sprites
+$icon-bg_marker_sort-spacing: 20px; // add spacing to this graphic in the sprite map
+$icon-layout: smart; // initialize smart sprite map layout. default is vertical
+@import "new/informational/informational_icon/*.png"; // create sprite map in this directory
+
+@mixin informational-sprite-css($name) {
+	@include informational_icon-sprite($name); // background url
+	height: informational_icon-sprite-height($name); // height of sprite
+	width: informational_icon-sprite-width($name); // width of sprite
+}
