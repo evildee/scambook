@@ -1,8 +1,8 @@
-.icons-sprite { background: url('/media/css/css-img/icons-sc4b28c011a.png') no-repeat; }
+.icons-sprite { background: url('css-img/icons-sc4b28c011a.png') no-repeat; }
 
-.signup-sprite { background: url('/media/css/css-img/signup-s584843bc28.png') no-repeat; }
+.signup-sprite { background: url('css-img/signup-s584843bc28.png') no-repeat; }
 
-.informational_icon-sprite, .m-btn-play-video__pointer, .m-how-number-icon-arrow, .m-how-number-icon-arrow__down2, .m-how-number-icon-arrow__right, .m-news-column1__logo.reuters, .m-news-column1__logo.fox-news, .m-news-column1__logo.forbes, .m-news-column1__logo.boston, .m-news-column1__logo.pcworld, .m-news-column1__logo.daily-finance, .m-news-column1__logo.siliconbeat, .m-news-column1__logo.huffington, .m-news-column1__logo.nbc4, .m-blog-snippet__icon-popular, .active .m-blog-snippet__icon-popular, .m-blog-snippet__icon-recent, .active .m-blog-snippet__icon-recent, .m-search-big__icon, .m-overall-rating__star-big li, .m-overall-rating__star-big li.half, .m-testimonial__comment-pointer, .m-testimonial__user-rating li, .m-testimonial__usericon, .m-press-info__icon, .m-press-info__icon.resource, .m-press-info__icon.contact { background: url('/media/css/css-img/new/informational/informational_icon-s91c9402ab4.png') no-repeat; }
+.informational_icon-sprite, .m-btn-play-video__pointer, .m-how-number-icon-arrow, .m-how-number-icon-arrow__down2, .m-how-number-icon-arrow__right, .m-news-column1__logo.reuters, .m-news-column1__logo.fox-news, .m-news-column1__logo.forbes, .m-news-column1__logo.boston, .m-news-column1__logo.pcworld, .m-news-column1__logo.daily-finance, .m-news-column1__logo.siliconbeat, .m-news-column1__logo.huffington, .m-news-column1__logo.nbc4, .m-blog-snippet__icon-popular, .active .m-blog-snippet__icon-popular, .m-blog-snippet__icon-recent, .active .m-blog-snippet__icon-recent, .m-search-big__icon, .m-overall-rating__star-big li, .m-overall-rating__star-big li.half, .m-testimonial__comment-pointer, .m-testimonial__user-rating li, .m-testimonial__usericon, .m-press-info__icon, .m-press-info__icon.resource, .m-press-info__icon.contact { background: url('css-img/new/informational/informational_icon-s91c9402ab4.png') no-repeat; }
 
 /* Number Reported Damages */
 #counter3 { float: left; line-height: 18px; margin: 10px 0 0 0; }

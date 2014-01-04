@@ -1,6 +1,6 @@
-.icons-sprite { background: url('/media/css/css-img/icons-sc4b28c011a.png') no-repeat; }
+.icons-sprite { background: url('css-img/icons-sc4b28c011a.png') no-repeat; }
 
-.signup-sprite { background: url('/media/css/css-img/signup-s584843bc28.png') no-repeat; }
+.signup-sprite { background: url('css-img/signup-s584843bc28.png') no-repeat; }
 
 #company { /* .report-container */ /* column-2-side */ /* restyling because of h2 styling from above */ /* Index */ /* Tmp */ }
 #company .report-container { min-height: 400px; background: #fff; border-radius: 8px; border: 1px solid #e8e8e8; width: 620px; /*ie*/ box-shadow: 3px 3px 0 #eee; -webkit-box-shadow: 3px 3px 0 #eee; /* company-stat-container */ /* .report-header */ /* .content-body  */ /* .report-footer */ }

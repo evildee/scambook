@@ -13,7 +13,7 @@
 	.icon-medium.privacy {background-position: -50px 2px;}
 	.icon-medium.submitted {background-position: -47px -41px;}
 	.icon-medium.following {background-position: -50px -143px;}
-	
+
 	.active .icon-medium.messages {background-position: -20px -18px;}
 	.active .icon-medium.comments {background-position: -20px -64px;}
 	.active .icon-medium.resolutions {background-position: -20px -114px;}
@@ -54,13 +54,13 @@
 				text-shadow: 1px 1px 0 #FFFFFF;
 				span{font-weight:normal   }
 			}
-		 
-		 } 
+
+		 }
     }
     .panel-column-side {
     	.button1 { font-weight: normal; font-size: 12px; margin: 0 10px 10px 10px; padding: 10px 0; }
     }
-    .complaint-control-panel { background: #fff url(/media/css/css-img/pix-e8e8e8.gif) repeat-y 495px 0; }
+    .complaint-control-panel { background: #fff url(css-img/pix-e8e8e8.gif) repeat-y 495px 0; }
 	.box-container-round {
 	    .comments-container { padding:5px;
 	        li { display: inline; margin: 0; }
@@ -68,12 +68,12 @@
                img {width:15px}
 			}
 	    }
-	}	
+	}
 	.profile-snippet {
 		padding: 0 0 20px 0; margin: 0 0 20px 0; border-bottom: 1px solid #e8e8e8;
 		li {margin: 0 0 5px 0;}
 	}
-	
+
 
 	.column-1-main.following {
 		.side-display {
@@ -127,7 +127,7 @@
 		position: relative; float: left; display: inline-block; width: 650px;
 		.form-general {
 			textarea {width: 95%; min-height: 80px;}
-		}	
+		}
 	}
 }
 #payout {
@@ -141,11 +141,11 @@
 }
 
 .fake-live-chat-container {
-	width: 400px; position: fixed; right: 60px; bottom: -222px; 
+	width: 400px; position: fixed; right: 60px; bottom: -222px;
 	.tab {
 		float: right; @include box-shadow(rgba(0,0,0,.1) 0 0 40px);
 		a { color: #575771; font-weight: bold; padding: 10px 20px; display: inline-block; @include border-radius(6px 6px 0 0); border: 1px solid #dcdcdc; border-bottom: 0;
-			background-color: rgb(232,251,254); 
+			background-color: rgb(232,251,254);
 			@include filter-gradient(#e8fbfe, #ccecf1, vertical);
 			$experimental-support-for-svg: true;
 			@include background-image(linear-gradient(top,  rgba(232,251,254,1) 0%,rgba(204,236,241,1) 46%));

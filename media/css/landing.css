@@ -1,6 +1,6 @@
-.icons-sprite { background: url('/media/css/css-img/icons-sc4b28c011a.png') no-repeat; }
+.icons-sprite { background: url('css-img/icons-sc4b28c011a.png') no-repeat; }
 
-.signup-sprite { background: url('/media/css/css-img/signup-s584843bc28.png') no-repeat; }
+.signup-sprite { background: url('css-img/signup-s584843bc28.png') no-repeat; }
 
 #landing { /* end landing-content */ }
 #landing .landing-content { padding: 0 100px; background: #fff; height: auto; padding: 41px 50px; width: 640px; margin: 0 auto; /* end subform */ }

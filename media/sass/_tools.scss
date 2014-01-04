@@ -60,7 +60,7 @@ $signup-layout: smart; // initialize smart sprite map layout. default is vertica
 @mixin xx-large-font {
 	font-size: 24px;
 }
-$sprite-file: url(/media/css/css-img/sprites.png) no-repeat;
+$sprite-file: url(../../media/css/css-img/sprites.png) no-repeat;
 $global-font-color: #5d5d5d;
 $hover: #B9006C;
 $link: #00A8A8;

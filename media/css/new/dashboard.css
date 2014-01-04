@@ -1,11 +1,11 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic);
-.icon-sprite, .c-ccvc__img, .c-cc-card__list .is-visa, .c-cc-card__list .is-mastercard, .c-cc-card__list .is-ameri, .c-cc-card__list .is-discovery, .c-cc-norton, .c-cc-truste { background: url('/media/css/css-img/new/icon-s6bee8e85c7.png') no-repeat; }
+.icon-sprite, .c-ccvc__img, .c-cc-card__list .is-visa, .c-cc-card__list .is-mastercard, .c-cc-card__list .is-ameri, .c-cc-card__list .is-discovery, .c-cc-norton, .c-cc-truste { background: url('../../../media/css/css-img/new/icon-s6bee8e85c7.png') no-repeat; }
 
-.dashboard_icons-sprite, .c-dashboard-nav__icon.c-dashboard-nav__icon--resolutions, .c-dashboard-nav__icon.c-dashboard-nav__icon--submitted, .c-dashboard-nav__icon.c-dashboard-nav__icon--commented, .c-dashboard-nav__icon.c-dashboard-nav__icon--messages, .c-d-complaint__cl-btn-icon, .c-d-complaint__cl-icon.is-complete, .m-share-mini__email, .m-share-mini__fb, .m-share-mini__twit, .c-d-complaint__status-icon.is-review, .c-d-complaint__status-icon.is-hold, .c-d-complaint__status-icon.is-in-dispute, .c-d-complaint__status-icon.is-pending, .c-d-complaint__status-icon.is-active, .c-d-complaint__status-icon.is-resolved, .m-live-chat__icon, .m-d-in-ad__content { background: url('/media/css/css-img/new/dashboard/dashboard_icons-sc7a1fdcd88.png') no-repeat; }
+.dashboard_icons-sprite, .c-dashboard-nav__icon.c-dashboard-nav__icon--resolutions, .c-dashboard-nav__icon.c-dashboard-nav__icon--submitted, .c-dashboard-nav__icon.c-dashboard-nav__icon--commented, .c-dashboard-nav__icon.c-dashboard-nav__icon--messages, .c-d-complaint__cl-btn-icon, .c-d-complaint__cl-icon.is-complete, .m-share-mini__email, .m-share-mini__fb, .m-share-mini__twit, .c-d-complaint__status-icon.is-review, .c-d-complaint__status-icon.is-hold, .c-d-complaint__status-icon.is-in-dispute, .c-d-complaint__status-icon.is-pending, .c-d-complaint__status-icon.is-active, .c-d-complaint__status-icon.is-resolved, .m-live-chat__icon, .m-d-in-ad__content { background: url('../../../media/css/css-img/new/dashboard/dashboard_icons-sc7a1fdcd88.png') no-repeat; }
 
 body { background: transparent; }
 
-html { background: url(/media/css/css-img/new/dashboard/bg_f9f9f9.gif) repeat-y center; }
+html { background: url(../../../media/css/css-img/new/dashboard/bg_f9f9f9.gif) repeat-y center; }
 @media only screen and (max-width: 1000px) { html { background-size: 100%; } }
 @media only screen and (max-width: 634px) { html { background: none; } }
 
@@ -120,9 +120,9 @@ html { background: url(/media/css/css-img/new/dashboard/bg_f9f9f9.gif) repeat-y 
 .nps__content__heading { font-size: 14px !important; margin-bottom: 0px; }
 
 .c-no-access { text-align: center; }
-.c-no-access.is-progress { background: url(/media/css/css-img/new/dashboard/archive_npshead.png) no-repeat; background-size: 100%; }
+.c-no-access.is-progress { background: url(../../../media/css/css-img/new/dashboard/archive_npshead.png) no-repeat; background-size: 100%; }
 .c-no-access.is-progress .c-no-access__content { padding: 70px 0 0 0; }
-.c-no-access.is-archive { height: 400px; background: url(/media/css/css-img/new/dashboard/archive_nps.png) no-repeat; background-size: 100%; }
+.c-no-access.is-archive { height: 400px; background: url(../../../media/css/css-img/new/dashboard/archive_nps.png) no-repeat; background-size: 100%; }
 .c-no-access.is-archive .c-no-access__content { padding: 180px 0 0 0; }
 .c-no-access.is-archive h5 { color: #D80670; letter-spacing: 1px; text-transform: uppercase; }
 
@@ -158,7 +158,7 @@ html { background: url(/media/css/css-img/new/dashboard/bg_f9f9f9.gif) repeat-y 
 
 .savebtn i { display: none; }
 
-.savebtn i.active { background: url(/media/css/css-img/new/dashboard/dashboard_icons/loadspin.gif); display: inline-block; height: 16px; margin: -4px 8px 0 0; width: 15px; float: left; }
+.savebtn i.active { background: url(../../../media/css/css-img/new/dashboard/dashboard_icons/loadspin.gif); display: inline-block; height: 16px; margin: -4px 8px 0 0; width: 15px; float: left; }
 
 .c-d-upload__textinfo { color: #666666; display: inline-block; font-size: 12px; font-style: italic; line-height: 14px; margin: 2px 0 18px; }
 

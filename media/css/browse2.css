@@ -1,6 +1,6 @@
-.icons-sprite { background: url('/media/css/css-img/icons-sc4b28c011a.png') no-repeat; }
+.icons-sprite { background: url('css-img/icons-sc4b28c011a.png') no-repeat; }
 
-.signup-sprite { background: url('/media/css/css-img/signup-s584843bc28.png') no-repeat; }
+.signup-sprite { background: url('css-img/signup-s584843bc28.png') no-repeat; }
 
 #browse { /* list container */ /* .column-2-main */ /* #toggle_grid_list */ }
 #browse .list-container .side-display-container { float: left; height: auto; margin: 10px 10px 10px 5px; width: 255px; border: 1px solid #E8E8E8; border-radius: 5px 5px 5px 5px; box-shadow: 2px 2px 0 #EEEEEE; background: #fff; overflow: hidden; padding: 15px; position: relative; word-wrap: nowrap; /* end side display */ }

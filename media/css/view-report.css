@@ -1,6 +1,6 @@
-.icons-sprite { background: url('/media/css/css-img/icons-sc4b28c011a.png') no-repeat; }
+.icons-sprite { background: url('css-img/icons-sc4b28c011a.png') no-repeat; }
 
-.signup-sprite { background: url('/media/css/css-img/signup-s584843bc28.png') no-repeat; }
+.signup-sprite { background: url('css-img/signup-s584843bc28.png') no-repeat; }
 
 #view-report { /* .report-container */ /* .twitpic  */ /* .column-2-side  */ }
 #view-report .report-container { /* .report-header */ /* report-body */ /* .report-footer  */ }

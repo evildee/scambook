@@ -15,7 +15,7 @@ environment = :production
 # sass_options = { :debug_info => true }
 
 # To enable relative paths to assets via compass helper functions. Uncomment:
-# relative_assets = true
+relative_assets = true
 
 line_comments = false
 color_output = false

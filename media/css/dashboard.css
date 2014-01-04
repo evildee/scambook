@@ -1,6 +1,6 @@
-.icons-sprite, .fake-live-chat-container .icon, .in-ad__content { background: url('/media/css/css-img/icons-sc4b28c011a.png') no-repeat; }
+.icons-sprite, .fake-live-chat-container .icon, .in-ad__content { background: url('css-img/icons-sc4b28c011a.png') no-repeat; }
 
-.signup-sprite { background: url('/media/css/css-img/signup-s584843bc28.png') no-repeat; }
+.signup-sprite { background: url('css-img/signup-s584843bc28.png') no-repeat; }
 
 /* Dashboard Globals */
 .side-menu .icon-medium { margin: -3px 5px 0 10px; }
@@ -33,7 +33,7 @@
 #dashboard .panel-column-main .pad-20 ul li.dashboard-report-damages, #dashboard .panel-column-main .pad-20 ul li.dashboard-report-date { background: none repeat scroll 0 0 #F1F1F1; float: left; font-size: 10px; font-weight: bold; margin: 0 5px 0 0; padding: 5px 8px 5px 5px; text-shadow: 1px 1px 0 #FFFFFF; }
 #dashboard .panel-column-main .pad-20 ul li.dashboard-report-damages span, #dashboard .panel-column-main .pad-20 ul li.dashboard-report-date span { font-weight: normal; }
 #dashboard .panel-column-side .button1 { font-weight: normal; font-size: 12px; margin: 0 10px 10px 10px; padding: 10px 0; }
-#dashboard .complaint-control-panel { background: white url(/media/css/css-img/pix-e8e8e8.gif) repeat-y 495px 0; }
+#dashboard .complaint-control-panel { background: white url(css-img/pix-e8e8e8.gif) repeat-y 495px 0; }
 #dashboard .box-container-round .comments-container { padding: 5px; }
 #dashboard .box-container-round .comments-container li { display: inline; margin: 0; }
 #dashboard .box-container-round .comments-container li.side-image { width: auto; }

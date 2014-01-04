@@ -1,6 +1,6 @@
-.icons-sprite, .icon-sprite.stopwatch, .m-live-chat__icon { background: url('/media/css/css-img/icons-sc4b28c011a.png') no-repeat; }
+.icons-sprite, .icon-sprite.stopwatch, .m-live-chat__icon { background: url('css-img/icons-sc4b28c011a.png') no-repeat; }
 
-.signup-sprite { background: url('/media/css/css-img/signup-s584843bc28.png') no-repeat; }
+.signup-sprite { background: url('css-img/signup-s584843bc28.png') no-repeat; }
 
 /* general */
 .icon-sprite { float: left; margin: 0 8px 0 0; }

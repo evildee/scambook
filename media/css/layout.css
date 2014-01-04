@@ -1,6 +1,6 @@
-.icons-sprite, .header-bar__bg { background: url('/media/css/css-img/icons-sc4b28c011a.png') no-repeat; }
+.icons-sprite, .header-bar__bg { background: url('css-img/icons-sc4b28c011a.png') no-repeat; }
 
-.signup-sprite { background: url('/media/css/css-img/signup-s584843bc28.png') no-repeat; }
+.signup-sprite { background: url('css-img/signup-s584843bc28.png') no-repeat; }
 
 .header { width: 890px; margin: 0 auto; position: relative; }
 .header .bar1 { height: 47px; }
@@ -509,12 +509,12 @@ a.youtube_v2 { background: url(css-img/social-header-icon-youtube.png) no-repeat
 .side-display.rank .description { font-size: 11px; line-height: 12px; }
 .side-display.rank .result-links { font-size: 11px; color: #009999; }
 .side-display.rank .result-links li { padding-right: 2px; }
-.side-display.rank .result-links li .link_arrow { display: block; width: 7px; height: 7px; float: left; margin: 2px 0 0 0; text-indent: -9999px; background: url(/media/css/css-img/sprites.png) no-repeat -7px -342px; }
+.side-display.rank .result-links li .link_arrow { display: block; width: 7px; height: 7px; float: left; margin: 2px 0 0 0; text-indent: -9999px; background: url(../../media/css/css-img/sprites.png) no-repeat -7px -342px; }
 .side-display.rank .result-links a { font-size: 11px; color: #009999; text-decoration: none; }
 .side-display.rank .rep-controls { position: absolute; height: 130%; border-radius: 0 8px 8px 0; right: 0; width: 120px; margin: -15px; }
 .side-display.rank .rep-controls .close a { text-indent: -9999px; width: 110px; position: absolute; margin: 0; padding: 5px; }
 .side-display.rank .rep-controls .close a .icon { background-position: 0 -320px; float: right; }
-.side-display.rank .rep-controls .close a .undo { display: block; width: 34px; height: 15px; float: right; padding-right: 20px; margin: 2px -22px 0 0; text-indent: -9999px; background: url(/media/css/css-img/sprites.png) no-repeat 49px 283px; z-index: 9999; }
+.side-display.rank .rep-controls .close a .undo { display: block; width: 34px; height: 15px; float: right; padding-right: 20px; margin: 2px -22px 0 0; text-indent: -9999px; background: url(../../media/css/css-img/sprites.png) no-repeat 49px 283px; z-index: 9999; }
 .side-display.rank .rep-controls .close a .undo:hover { display: block; background-position: -49px -283px; }
 .side-display.rank .rep-controls .label { font-size: 20px; color: #fff; display: block; text-align: center; line-height: 90px; }
 .side-display.rank .rep-controls .button1 { margin: 5px 0 0 0; font-size: 12px; width: 110px; height: 25px; padding: 3px 5px; }
@@ -525,7 +525,7 @@ a.youtube_v2 { background: url(css-img/social-header-icon-youtube.png) no-repeat
 .side-display.ticket { border-top: 1px solid #e8e8e8; padding: 10px 0 0 0; min-height: 60px; }
 .side-display.ticket .title { font-size: 16px; }
 .side-display.ticket .rep-controls { width: 120px; margin: 0px 26px 0 0; }
-.side-display.ticket .rep-controls .indicator-corner { width: 27px; height: 27px; background: url(/media/css/css-img/sprites.png) no-repeat -50px -252px; position: absolute; right: 0; top: -1px; }
+.side-display.ticket .rep-controls .indicator-corner { width: 27px; height: 27px; background: url(../../media/css/css-img/sprites.png) no-repeat -50px -252px; position: absolute; right: 0; top: -1px; }
 .side-display.ticket .rep-controls .indicator-corner.unresolved { background-color: #ff0000; }
 .side-display.ticket .rep-controls .indicator-corner.pending { background-color: #ffbb04; }
 .side-display.ticket .rep-controls .indicator-corner.resolved { background-color: #0bd101; }
@@ -575,7 +575,7 @@ a.youtube_v2 { background: url(css-img/social-header-icon-youtube.png) no-repeat
 .comments-container .side-display.post.flagger { height: 20px; overflow: hidden; opacity: .5; cursor: pointer; }
 .comments-container .side-display.post.flagger .flagger-tab { position: absolute; bottom: 0; left: 203px; height: 20px; }
 .comments-container .side-display.post.flagger .flagger-tab a { line-height: 21px; padding: 3px 10px; font-size: 9px; background: #ccc; color: #000; border-radius: 3px; }
-.comments-container .side-display.post.flagger .flag { background: url(url(/media/css/css-img/sprites.png) no-repeat) 0 -136px; }
+.comments-container .side-display.post.flagger .flag { background: url(url(../../media/css/css-img/sprites.png) no-repeat) 0 -136px; }
 .comments-container textarea.comments-area { width: 545px; max-width: 545px; min-width: 545px; height: 60px; min-height: 20px; border-radius: 3px; }
 .comments-container button { padding: 5px 10px; margin: 5px 0 0 0; }
 

@@ -1,6 +1,6 @@
-.icons-sprite, .bullet.bullet-16 .icon.pdf, .bullet.bullet-16 .icon.mail, .cvc-tip .cvcimg, .m-live-chat__icon { background: url('/media/css/css-img/icons-sc4b28c011a.png') no-repeat; }
+.icons-sprite, .bullet.bullet-16 .icon.pdf, .bullet.bullet-16 .icon.mail, .cvc-tip .cvcimg, .m-live-chat__icon { background: url('css-img/icons-sc4b28c011a.png') no-repeat; }
 
-.signup-sprite { background: url('/media/css/css-img/signup-s584843bc28.png') no-repeat; }
+.signup-sprite { background: url('css-img/signup-s584843bc28.png') no-repeat; }
 
 /* CSS Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
@@ -269,15 +269,15 @@ abbr[title], acronym[title] { border-bottom-width: 0; text-decoration: none; }
 
 /* @end */
 /* @group Icons */
-.icon-micro { width: 18px; height: 12px; background: url(/media/css/css-img/sprites.png) no-repeat; display: block; float: left; }
+.icon-micro { width: 18px; height: 12px; background: url(../../media/css/css-img/sprites.png) no-repeat; display: block; float: left; }
 
-.icon-mini { margin: 0 6px 0 0; float: left; text-indent: -9999px; display: block; width: 18px; height: 18px; background: url(/media/css/css-img/sprites.png) no-repeat; }
+.icon-mini { margin: 0 6px 0 0; float: left; text-indent: -9999px; display: block; width: 18px; height: 18px; background: url(../../media/css/css-img/sprites.png) no-repeat; }
 
-.icon { height: 20px; display: block; float: left; width: 20px; background: url(/media/css/css-img/sprites.png) no-repeat; text-indent: -9999px; }
+.icon { height: 20px; display: block; float: left; width: 20px; background: url(../../media/css/css-img/sprites.png) no-repeat; text-indent: -9999px; }
 .icon a { text-indent: -9999px; width: 20px; height: 20px; float: left; display: block; }
 .icon span { display: block; float: right; }
 
-.icon-medium { height: 20px; width: 30px; display: block; float: left; background: url(/media/css/css-img/sprites.png) no-repeat; margin: -3px 5px 0 10px; }
+.icon-medium { height: 20px; width: 30px; display: block; float: left; background: url(../../media/css/css-img/sprites.png) no-repeat; margin: -3px 5px 0 10px; }
 .icon-medium a { text-indent: -9999px; width: 30px; height: 30px; float: left; display: block; }
 
 .new .icon { float: right; display: block; background-position: -75px -62px; width: 30px; margin: -10px 0 0 0; }
@@ -361,7 +361,7 @@ a:hover:before{border-color:transparent #555 transparent transparent;}*/ }
 .share-circles .like { background: url(css-img/share-circles.png) -160px 0; }
 
 .note { white-space: normal; position: relative; padding: 10px; margin: 0 0 20px 0; border-radius: 8px; border: 1px solid #EDEBC4; background: #fefcd1; /* Old browsers */ /* IE9 SVG, needs conditional override of 'filter' to 'none' */ background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmNkMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZWZjZWEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #fefcd1 0%, #fefcea 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fefcd1), color-stop(100%, #fefcea)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top, #fefcd1 0%, #fefcea 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top, #fefcd1 0%, #fefcea 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top, #fefcd1 0%, #fefcea 100%); /* IE10+ */ background: linear-gradient(top, #fefcd1 0%, #fefcea 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefcd1', endColorstr='#fefcea',GradientType=0 ); /* IE6-8 */ }
-.note .tipper { position: absolute; background: url(/media/css/css-img/sprites.png) no-repeat; display: block; width: 24px; height: 12px; }
+.note .tipper { position: absolute; background: url(../../media/css/css-img/sprites.png) no-repeat; display: block; width: 24px; height: 12px; }
 .note .tipper.bottom { bottom: -12px; background-position: -20px -198px; }
 .note .tipper.top { top: -12px; background-position: -20px -214px; }
 .note .tipper.left-small { left: -13px; background-position: 0 -307px; }
