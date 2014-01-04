@@ -1,0 +1,500 @@
+<table width="100%" align="center" cellpadding="0" cellspacing="0" class="contentbg">
+<tr>
+<td valign="top">
+<table width="100%" cellspacing="0" cellpadding="0">
+
+<tr>
+  <td>
+
+  </td>
+</tr>
+<tr>
+  <td class="templateColor01" valign="top" style="padding:0; background: #181818;">
+    <!-- // Begin Template PreHeader \\ -->
+    <table class="BoxWrap" width="600" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="30">
+          <table width="100%" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="text" mc:edit="header_Txt"
+                style="padding:10px 0; color:#ffffff; font-size: 10px; font-family: 'Arial', sans-serif; font-size: 13px; font-weight: normal; line-height: 18px;   text-align: left; text-decoration: none;">&nbsp;</td>
+              <td class="RespoHideSmall">
+                <span style="font-size: 10px; color: #666; font-family: 'Arial', sans-erif; ">You are receiving this email because you have an existing relationship with Scambook.<br /> If you no longer wish to receive emails please <a href="#" target="blank" style="color: #666;">Unsubscribe</a></span>
+                <table width="200" align="right" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <!-- // Begin Module: Header Social Icons \\ -->
+
+                    <td class="text" mc:edit="header_FindUs"
+                      style="text-align:right; color:#ffffff; font-family: 'Arial', sans-serif; font-size: 13px; font-weight: normal; line-height: 18px; text-align: right; text-decoration: none;">Find us on:
+                    </td>
+                    <td><a href="https://www.facebook.com/ComplaintResolution" target="_blank"><img
+                          align="right" src="http://www.scambook.com/media/images/emails/follow_up/social_03.png" alt="icon"
+                          style="display:block; max-width:22px; max-height:22px;"
+                          mc:label="image" mc:edit="icon_image03"/></a></td>
+                    <td><a href="https://twitter.com/Scambook" target="_blank"><img align="right"
+                                                    src="http://www.scambook.com/media/images/emails/follow_up/social_02.png"
+                                                    alt="icon"
+                                                    style="display:block; max-width:22px; max-height:22px;"
+                                                    mc:label="image"
+                                                    mc:edit="icon_image02"/></a>
+                    </td>
+                    <td><a href="http://www.youtube.com/user/Scambook" target="_blank" style=""><img
+                          align="right" src="http://www.scambook.com/media/images/emails/follow_up/social_01.png" alt="icon"
+                          style="display:block; max-width:22px; max-height:22px;"
+                          mc:label="image" mc:edit="icon_image01"/></a></td>
+                    <!-- // End Module: Header Social Icons \\ -->
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <!-- // End Template PreHeader \\ -->
+  </td>
+</tr>
+
+<!-- // ********************************************************************************************************* \\ -->
+
+<tr>
+  <td class="templateColor02" valign="bottom" style="padding:0; background: #eee;">
+    <!-- // Begin Template Header \\ -->
+    <table class="BoxWrap" width="600" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <table class="BoxWrap" width="600" align="left" cellpadding="0" cellspacing="0">
+            <tr>
+              <td height="40"></td>
+            </tr>
+            <!-- // Horizontal Spacer \\ -->
+            <tr>
+              <td><a href="#"><img src="http://www.scambook.com/media/images/emails/follow_up/logo.png" alt="logo" width="150" height="23"
+                         style="display:block; max-width:230px; max-height:70px;"
+                         mc:label="image" mc:edit="logo"/></a></td>
+            </tr>
+            <tr>
+              <td height="20"></td>
+            </tr>
+            <!-- // Horizontal Spacer \\ -->
+            <tr>
+              <td height="20"></td>
+            </tr>
+            <!-- // Horizontal Spacer \\ -->
+            <tr>
+              <td class="text" mc:edit="header_Text" style="color:#333; font-family: 'Arial', sans-serif; font-size: 13px; font-weight: normal; line-height: 18px;  text-align: left; text-decoration: none;">
+                @html
+              </td>
+            </tr>
+            <tr>
+              <td class="text" style="font-family: 'Arial', sans-serif; font-size: 13px; font-weight: normal; line-height: 18px; color: #565656; text-align: left; text-decoration: none;">
+                <p>
+                  Enlist the help of a Complaint Resolution professional and Signup for Premium
+                  Support today! Simply sign in to your Scambook account and fill out the signup form
+                </p>
+                <table align="center" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td class="templateColor02" style="background: #eee;"><img src="http://www.scambook.com/media/images/emails/follow_up/btn_color_left.png"
+                                     mc:label="image" mc:edit="btn_color_left"
+                                     style="display:block; width:17px; height:30px;"/>
+                    </td>
+                    <td class="buttonColor" mc:edit="freeShipping_Button" height="30"
+                      style="text-align: center; background: #B8006C;"><a href="http://www.scambook.com/premium"
+                                       target="_blank" class="button" style="font-family: 'Arial', sans-serif; font-size: 11px; font-weight: normal; line-height: 14px; color: #fff; text-align: center; text-decoration: none;">GET PREMIUM
+                        SUPPORT TODAY FOR $9.99</a></td>
+                    <td class="templateColor02" style="background: #eee;"><img src="http://www.scambook.com/media/images/emails/follow_up/btn_color_right.png"
+                                     mc:label="image" mc:edit="btn_color_right"
+                                     style="display:block; width:33px; height:30px;"/>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td height="40"></td>
+            </tr>
+            <!-- // Horizontal Spacer \\ -->
+          </table>
+        </td>
+        <!-- // Vertical Spacer \\ -->                            </tr>
+    </table>
+    <!-- // End Template Header \\ -->
+  </td>
+</tr>
+
+<!-- // ********************************************************************************************************* \\ -->
+
+<tr>
+  <td align="center" valign="top">
+    <!-- // Begin Module: Features\\ -->
+    <table class="BoxWrap" width="600" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="1" bgcolor="#dddddd"></td>
+      </tr>
+      <!-- // Horizontal Border \\ -->
+      <tr>
+        <td height="60"></td>
+      </tr>
+      <!-- // Horizontal Spacer \\ -->
+      <tr>
+        <td class="title" style="color: #181818; font-family: 'Arial',sans-serif; font-size: 24px; font-weight: bold; line-height: 30px; text-align: left; text-decoration: none;" mc:edit="Features_Title">Premium Features</td>
+      </tr>
+      <tr>
+        <td height="30"></td>
+      </tr>
+      <!-- // Horizontal Spacer \\ -->
+      <tr>
+        <td>
+          <!-- // First Column \\ -->
+          <table class="BoxWrap" width="285" align="left" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>
+                <table cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td class="templateColor02" style="background: #eee;" valign="top" width="44" height="44"><img
+                        src="http://www.scambook.com/media/images/emails/follow_up/icon03.png" alt="icon"
+                        style="display:block; width:44px; height:44px;" mc:label="icon"
+                        mc:edit="features_icon01"/></td>
+                  </tr>
+                </table>
+              </td>
+              <td class="text" mc:edit="Features_Text01" valign="middle" style="padding-left:15px; font-family: 'Arial', sans-serif; font-size: 13px; font-weight: normal; line-height: 18px; color: #565656; text-align: left; text-decoration: none;">
+                <strong>Know What&rsquo;s Safe</strong> <br/>
+                Unsure about a certain website or email/letter received? Your Scambook Investigator will tell you. 
+              </td>
+            </tr>
+            <tr>
+              <td height="26"></td>
+              <td></td>
+            </tr>
+            <!-- // Horizontal Spacer \\ -->
+            <tr>
+              <td>
+                <table cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td class="templateColor02" style="background: #eee;" width="44" height="44"><img src="http://www.scambook.com/media/images/emails/follow_up/icon02.png"
+                                                alt="icon"
+                                                style="display:block; width:44px; height:44px;"
+                                                mc:label="icon"
+                                                mc:edit="features_icon02"/>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td class="text" mc:edit="Features_Text02" valign="middle" style="padding-left:15px; font-family: 'Arial', sans-serif; font-size: 13px; font-weight: normal; line-height: 18px; color: #565656; text-align: left; text-decoration: none;">
+                <strong>Your Time is Valuable</strong> <br/>
+                Our Scambook Investigators will save you time and money by going over your bills for
+                fraudulent charges.
+              </td>
+            </tr>
+            <tr>
+              <td height="26"></td>
+              <td></td>
+            </tr>
+            <!-- // Horizontal Spacer \\ --> <!-- // Horizontal Spacer \\ -->
+          </table>
+
+          <!-- // Second Column \\ -->
+          <table class="BoxWrap" width="285" align="right" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>
+                <table cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td class="templateColor02" style="background: #eee;" width="44" height="44"><img src="http://www.scambook.com/media/images/emails/follow_up/icon04.png"
+                                                alt="icon"
+                                                style="display:block; width:44px; height:44px;"
+                                                mc:label="icon"
+                                                mc:edit="features_icon04"/>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td class="text" mc:edit="Features_Text04" valign="middle" style="padding-left:15px; font-family: 'Arial', sans-serif; font-size: 13px; font-weight: normal; line-height: 18px; color: #565656; text-align: left; text-decoration: none;">
+                <strong>Scambook Fights for you</strong> <br/>
+                Have you been a victim of poor business practices? We&rsquo;ll help you get your
+                resolution.
+              </td>
+            </tr>
+            <tr>
+              <td height="26"></td>
+              <td></td>
+            </tr>
+            <!-- // Horizontal Spacer \\ -->
+            <tr>
+              <td>
+                <table cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td class="templateColor02" style="background: #eee;" width="44" height="44"><img src="http://www.scambook.com/media/images/emails/follow_up/icon05.png"
+                                                alt="icon"
+                                                style="display:block; width:44px; height:44px;"
+                                                mc:label="icon"
+                                                mc:edit="features_icon05"/>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td class="text" mc:edit="Features_Text05" valign="middle" style="padding-left:15px; font-family: 'Arial', sans-serif; font-size: 13px; font-weight: normal; line-height: 18px; color: #565656; text-align: left; text-decoration: none;">
+                <strong>Get access to your own Scambook Investigator<br/>
+                </strong>Shop safely and feel secure with access to your own Scambook Investigator
+              </td>
+            </tr>
+            <tr>
+              <td height="26"></td>
+              <td></td>
+            </tr>
+            <!-- // Horizontal Spacer \\ --> <!-- // Horizontal Spacer \\ -->
+          </table>
+
+        </td>
+      </tr>
+      <tr>
+        <td height="60"></td>
+      </tr>
+      <!-- // Horizontal Spacer \\ -->
+    </table>
+
+
+    <!-- // End Module: Features\\ -->
+  </td>
+</tr>
+
+<!-- // ********************************************************************************************************* \\ -->
+<!-- // ********************************************************************************************************* \\ -->
+
+
+<tr>
+  <td valign="top" style="padding:0;">
+    <!-- // Begin Module: Free Shipping \\ -->
+    <table class="BoxWrap" width="600" align="center" cellpadding="0" cellspacing="0"
+         style="background-color:#f9f9f9; border:1px solid #dddddd;">
+      <tr>
+        <td height="25"></td>
+      </tr>
+      <!-- // Horizontal Spacer \\ -->
+      <tr>
+        <td>
+          <table width="100%" cellspacing="20" cellpadding="0">
+            <tr>
+              <td class="title" mc:edit="freeShipping_Title" valign="top" style="text-align:center;  color: #181818; font-family: 'Arial',sans-serif; font-size: 24px; font-weight: bold; line-height: 30px; text-decoration: none;">The
+                help you need, when you need it
+              </td>
+            </tr>
+            <tr>
+              <td class="text" mc:edit="freeShipping_Txt" valign="top" style="text-align:center; font-family: 'Arial', sans-serif; font-size: 13px; font-weight: normal; line-height: 18px; color: #565656; text-decoration: none;">Protect
+                yourself from getting scammed! There are numerous sites out there preying on individuals
+                like you with super deals or free offers. That letter or email you received about an
+                inheritance, probably a scam.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table align="center" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td class="templateColor02" style="background: #eee;" ><img src="http://www.scambook.com/media/images/emails/follow_up/btn_color_left.png"
+                                     mc:label="image" mc:edit="btn_color_left"
+                                     style="display:block; width:17px; height:30px;"/>
+                    </td>
+                    <td class="buttonColor" mc:edit="freeShipping_Button" height="30"
+                      style="text-align: center; background: #B8006C;"><a href="http://www.scambook.com/premium"
+                                       target="_blank" class="button" style="font-family: 'Arial', sans-serif; font-size: 11px; font-weight: normal; line-height: 14px; color: #fff; text-align: center; text-decoration: none;">GET PREMIUM
+                        SUPPORT TODAY FOR $9.99</a></td>
+                    <td class="templateColor02" style="background: #eee;"><img src="http://www.scambook.com/media/images/emails/follow_up/btn_color_right.png"
+                                     mc:label="image" mc:edit="btn_color_right"
+                                     style="display:block; width:33px; height:30px;"/>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td height="25"></td>
+      </tr>
+      <!-- // Horizontal Spacer \\ -->
+    </table>
+    <!-- // End Module: Free Shipping \\ -->
+  </td>
+</tr>
+
+<!-- // ********************************************************************************************************* \\ -->
+
+<tr>
+  <td valign="top" style="padding:0;">
+    <!-- // Begin Module: Testimonial 01 \\ -->
+    <table class="BoxWrap" width="600" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="60"></td>
+      </tr>
+      <tr>
+        <td class="title" mc:edit="Features_Title" style="color: #181818; font-family: 'Arial',sans-serif; font-size: 24px; font-weight: bold; line-height: 30px; text-align: left; text-decoration: none;">Testimonials</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <!-- // Horizontal Spacer \\ -->
+      <tr>
+        <td>
+          <table width="100%" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="subtitle RespoTitleSmall" mc:edit="testimonials1_Txt"
+                style="font-style:italic; text-align:center; color: #181818; font-family: 'Arial',sans-serif; font-size: 14px; font-weight: bold; line-height: 30px; text-decoration: none;">"I am so happy I found Scambook. I placed
+                a complaint recently; I can&rsquo;t believe how much you guys are doing to help me!!! I
+                had placed a complaint already with the BBB online, and they didn&rsquo;t do nearly as
+                much! What a terrific service. Thanks for sticking up for the &ldquo;little people&rdquo;!
+                "
+              </td>
+            </tr>
+            <tr>
+              <td height="20"></td>
+            </tr>
+            <!-- // Horizontal Spacer \\ -->
+            <tr>
+              <td class="text" mc:edit="testimonials1_Author" valign="top" style="text-align:center; font-family: 'Arial', sans-serif; font-size: 13px; font-weight: normal; line-height: 18px; color: #565656; text-decoration: none;">
+                <strong>Found Resolution says</strong></td>
+            </tr>
+            <tr>
+              <td height="30"></td>
+            </tr>
+            <!-- // Horizontal Spacer \\ -->
+            <tr>
+              <td height="1" bgcolor="#dddddd"></td>
+            </tr>
+            <!-- // Horizontal Border \\ -->
+          </table>
+        </td>
+      </tr>
+    </table>
+    <!-- // End Module: Testimonial 01 \\ -->
+
+    <!-- // Begin Module: Testimonial 02 \\ -->
+    <table class="BoxWrap" width="600" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="30"></td>
+      </tr>
+      <!-- // Horizontal Spacer \\ -->
+      <tr>
+        <td>
+          <table width="100%" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="subtitle RespoTitleSmall" mc:edit="testimonials2_Txt"
+                style="font-style:italic; text-align:center; color: #181818; font-family: 'Arial',sans-serif; font-size: 14px; font-weight: bold; line-height: 30px; text-decoration: none;">"While reviewing our online account info,
+                discovered an unauthorized amount pending. A quick Google search led me here to
+                ScamBook.com to find we weren't the only one to be in this position. Thank you, ScamBook
+                and thank you to our financial institution who remedied the incident immediately. "
+              </td>
+            </tr>
+            <tr>
+              <td height="20"></td>
+            </tr>
+            <!-- // Horizontal Spacer \\ -->
+            <tr>
+              <td class="text" mc:edit="testimonials2_Author" valign="top" style="text-align:center; font-family: 'Arial', sans-serif; font-size: 13px; font-weight: normal; line-height: 18px; color: #565656; text-decoration: none;">
+                <strong>Happy Consumer says </strong></td>
+            </tr>
+            <tr>
+              <td height="60"></td>
+            </tr>
+            <!-- // Horizontal Spacer \\ -->
+          </table>
+        </td>
+      </tr>
+    </table>
+    <!-- // End Module: Testimonial 02 \\ -->
+  </td>
+</tr>
+
+<!-- // ********************************************************************************************************* \\ -->
+
+<tr>
+  <td class="templateColor01" valign="top" style="padding:30px 0px; background: #181818;">
+    <!-- // Begin Module: Footer \\ -->
+    <table class="BoxWrap" width="600" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td valign="top">
+          <!-- // First FooterColumn \\ -->
+          <table class="BoxWrap" width="185" align="left" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="TitleColored" height="50" valign="top" mc:edit="footer1_Title" style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold; line-height: 30px; color: #B8006C; text-align: left; text-decoration: none;">Contact Us</td>
+            </tr>
+            <tr>
+              <td class="text" mc:edit="footer1_Txt" valign="top" style="color:#ffffff
+              !important;font-family: 'Arial', sans-serif; font-size: 13px; font-weight: normal; line-height: 18px; text-align: left; text-decoration: none;"><p>Have a Question?<br/>
+                <a  style="color: #B8006C; font-family: Arial,sans-serif; font-size: 14px; font-weight: normal; line-height: 18px; text-align: left; text-decoration: none;" href="http://www.scambook.com/contact" target="_blank">Contact Us</a> or check out
+                our <a  style="color: #B8006C; font-family: 'Arial',sans-serif; font-size: 14px; font-weight: normal; line-height: 18px; text-align: left; text-decoration: none;" href="http://www.scambook.com/page/faq" target="_blank">FAQ</a> Page.</p>
+
+              <p>1-877-966-2278 M-F 9am to 6pm PST</p></td>
+            </tr>
+            <tr>
+              <td align="left">
+                <table width="100" align="left" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <!-- // Begin Module: Footer Social Icons \\ -->
+                    <td height="50" valign="bottom"><a
+                        href="https://www.facebook.com/ComplaintResolution" target="_blank"><img
+                          align="left" src="http://www.scambook.com/media/images/emails/follow_up/social_03.png" alt="icon"
+                          style="display:block; max-width:22px; max-height:22px;"
+                          mc:label="image" mc:edit="icon_image03"/></a></td>
+                    <td valign="bottom"><a href="https://twitter.com/Scambook" target="_blank"><img
+                          align="left" src="http://www.scambook.com/media/images/emails/follow_up/social_02.png" alt="icon"
+                          style="display:block; max-width:22px; max-height:22px;"
+                          mc:label="image" mc:edit="icon_image02"/></a></td>
+                    <td valign="bottom"><a href="http://www.youtube.com/user/Scambook"
+                                 target="_blank"><img align="left"
+                                          src="http://www.scambook.com/media/images/emails/follow_up/social_01.png"
+                                          alt="icon"
+                                          style="display:block; max-width:22px; max-height:22px;"
+                                          mc:label="image"
+                                          mc:edit="icon_image01"/></a></td>
+                    <!-- // End Module: Footer Social Icons \\ -->
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td height="30"></td>
+            </tr>
+            <!-- // Horizontal Spacer \\ -->
+          </table>
+
+          <table align="left" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="RespoHideMedium" width="15">&nbsp; </td>
+              <!-- // Vertical Spacer \\ -->
+            </tr>
+          </table>
+
+          <!-- // Second FooterColumn \\ -->
+          <table class="BoxWrap" width="370" align="left" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="TitleColored" height="50" mc:edit="footer2_Title" valign="top">&nbsp;</td>
+            </tr>
+            <tr>
+              <td mc:edit="footer2_Txt" valign="top"><a href="https://www.scambook.com/dashboard"
+                                    target="_blank" class="footerLink" style="font-family: 'Arial', sans-serif; font-size: 13px; font-weight: normal; line-height: 18px; color: #ffffff; text-align: left; text-decoration: none;">You are
+                  receiving this email because you have contacted Scambook or have an existing
+                  relationship with Scambook. To change your password, manage your notification
+                  settings, or edit your account information please visit your <span  style="color: #B8006C; font-family: 'Arial',sans-serif; font-size: 14px; font-weight: normal; line-height: 18px; text-align: left; text-decoration: none;">account settings page</span>.
+                  Scambook does not provide legal services or legal advice.</a><br/><br/>
+                  <span style="font-size: 10px; color: #555; font-family: 'Arial', sans-erif; ">You are receiving this email because you have an existing relationship with Scambook. If you no longer wish to receive emails please <a href="#" target="blank" style="color: #636363;">Unsubscribe</a></span>
+              </td>
+            </tr>
+            <tr>
+              <td height="30"></td>
+            </tr>
+            <!-- // Horizontal Spacer \\ -->
+          </table>
+
+          <!-- // Third FooterColumn \\ --></td>
+      </tr>
+    </table>
+    <!-- // End Module: Footer \\ -->
+  </td>
+</tr>
+
+</table>
+</td>
+</tr>
+</table>
+<!--Table End-->

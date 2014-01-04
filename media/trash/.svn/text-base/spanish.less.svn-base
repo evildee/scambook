@@ -1,0 +1,38 @@
+#subform .all .col-2b { min-height: 143px;
+}
+.tab-title { font-size: 15px;
+}
+#signup-page a.signup-a { font: 8px Arial,Helvetica,sans-serif;
+}
+.es-signup-submit {background: url("css-img/btn-signup-es.png") repeat scroll 0 0 transparent;float: right;
+}
+.es-signup-submit:hover {background: url("css-img/btn-signup-es.png") repeat scroll 0 36px transparent;
+}
+.es-btn-s3 {border-radius: 5px 5px 5px 5px;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);color: #FFFFFF; cursor: pointer;display: inline-block; font-size: 14px; font-weight: bold; outline: medium none;padding: 10px 15px;text-align: center;text-decoration: none; text-shadow: 0 1px 2px transparent;
+}
+#toggle_grid_list{width:auto;display:block;height: 25px;position:relative;right:25px;top:0;margin:5px 0 0 0; float:right;border: 0 none;border-radius: 3px 3px 3px 3px;padding: 0;list-style:none;
+	    li{
+         /*display:inline-block;*/float:left;padding:0;width:auto;margin:0 5px 0 0;
+        }			
+			li a  {
+			display:inline-block;float:right;height: 25px;line-height: 25px;width:auto;padding: 0 5px 0 29px; font-size:10px;color: #666;margin: 0 5px 0 0;position:relative
+			}	
+}
+#browse .page-header #toggle_grid_list li.tlist  {width:80px;}
+#browse .page-header #toggle_grid_list li.tgrid  {width:110px;}
+#browse #toggle_grid_list li.tlist a {width:35px;}
+#browse #toggle_grid_list li.tgrid a {width:65px;}	
+#browse .list-container .side-display { margin: 0 0 0 90px;
+}
+#footer .rights {width: 600px;
+}
+#footer .foot-text {line-height: 1.5;width: 460px;
+}
+#footer .support-text-title {font-size: 20px;
+}
+#footer .support-text-cta {font-size: 20px;
+}	
+.new .icon { background-position: -75px -62px;display: block;float: right; margin: -40px 0 0;   width: 30px;
+}	
+#browse .list-container ul.side-display {margin: 0 0 0 80px;
+}	

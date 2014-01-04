@@ -1,0 +1,16 @@
+@import "compass";
+
+// Dashboard Sprites
+$dashboard_icons-bg_marker_sort-spacing: 20px; // add spacing to this graphic in the sprite map
+$dashboard_icons-layout: smart; // initialize smart sprite map layout. default is vertical
+@import "new/dashboard/dashboard_icons/*.png"; // create sprite map in this directory
+
+@mixin dashboard-sprite($name) {
+	@include dashboard_icons-sprite($name); // background url
+	height: dashboard_icons-sprite-height($name); // height of sprite
+	width: dashboard_icons-sprite-width($name); // width of sprite
+	display: block;
+}
+@mixin dashboard-sprite-only($name) { // no width here. set your own customized width
+	@include dashboard_icons-sprite($name); // background url
+}

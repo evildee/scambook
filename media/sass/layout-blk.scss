@@ -1,0 +1,40 @@
+@import "_tools.scss";
+ 
+
+ /* all contents wrapper. necessary to overide current css. */
+#main { padding-bottom: 0px; }
+
+
+/* middle contents wrapper. necessary to overide current css. */
+#content { clear:both;  width: 100%; margin: 0 auto; min-height:400px; padding: 0px; } 
+
+/* General 100% wrappers */
+
+.l-general-container { width: 980px; min-height: 100px; padding: 44px 10px 80px; margin:0 auto; }
+.l-white-bg { width: 100%; background: #fff; }
+.l-white-bg__container { width: 980px; padding: 44px 10px 80px; margin:0 auto; }
+
+
+/* About us page */
+
+
+.l-about-us-video { background: url( /media/css/css-img/new/informational/bg-about-us-video.jpg) no-repeat center center; height: 322px; width: 100%; overflow: auto; }
+.l-introduce-scambook { width: 980px; margin:0 auto; padding: 44px 10px 20px; height: 540px; background: url( /media/css/css-img/new/informational/bg-introduce-scambook.png) no-repeat right 50px ;}
+
+.l-how-it-works__part1 { min-height: 400px; background: url( /media/css/css-img/new/informational/bg-how-1.png) no-repeat right; }
+.l-how-it-works__part2 { min-height: 400px; background: url( /media/css/css-img/new/informational/bg-how-2.png) no-repeat 70px 40px; }
+.l-how-it-works__part3 { min-height: 400px; background: url( /media/css/css-img/new/informational/bg-how-3.png) no-repeat 570px 100px; }
+
+.l-about-us-blog__col-1 { width: 220px; margin-bottom: 60px; border-right: 1px solid #dbdbdb; float:left; }
+.l-about-us-blog__col-2 { width: 720px; margin-left: 30px; float:left; }
+
+
+/* Press page */
+.l-press-main { background: #fff url(/media/css/css-img/new/press/press-main.jpg) no-repeat center 150px; height: 520px; }
+
+.l-press-col-1 { float:left; }
+.l-press-col-1__container { width: 290px; background: #fff; padding: 25px 20px 30px 20px; }
+.l-press-col-2 { width: 620px; margin-left: 30px; float:left; }
+
+.l-press-col-3 { width: 810px; margin: 0 auto; } // press release all centered 
+.l-press-release-container { padding: 20px; }

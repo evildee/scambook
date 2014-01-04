@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Email Template</title>
+</head>
+
+<body>
+<div style="font-family: Arial, Helvetica, sans-serif; font-size:11px; color: #4a4a4a; margin:0px; padding:0px; background: #fff">
+<table width="620" border="0" cellpadding="25" style="border:1px solid #c2c2c2; margin:30px auto; background: #fafafa;" >
+  <tr>
+    <td colspan="2" style="border-bottom:3px solid #c00077;">
+    	<a href="#" target="_blank"><img src="logo.png" alt="Scambook" style="border:none;" /></a></td>
+  </tr>
+  <tr>
+    <td valign="top" style="line-height: 18px;">
+    	<!--email text here-->
+        <p>
+        	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare risus ut enim mollis tincidunt. Nam ante sem, pretium quis lacinia id, pharetra in nunc. Aliquam eget neque in ante vestibulum facilisis non ac dolor. Sed ac venenatis neque. Aliquam erat volutpat. Nullam molestie nulla ac nibh laoreet sit amet ullamcorper odio mollis.
+        </p>
+        
+        <p>
+        	Etiam ut ullamcorper est. Praesent ut orci nec diam hendrerit faucibus. Cras convallis quam a risus tincidunt a posuere nunc vestibulum. Phasellus ut accumsan nisl. Nam egestas aliquet dui sed suscipit. Curabitur eleifend, lorem nec dapibus euismod, leo urna pellentesque lectus, et vehicula tortor odio in nulla. Praesent aliquet bibendum leo, ut vehicula est imperdiet ac. Integer volutpat lobortis nibh, sit amet venenatis purus iaculis vestibulum. Praesent vitae felis vitae eros pretium pulvinar sed hendrerit massa.
+        </p>
+        
+    </td>
+    <td valign="top" width="217" style="background:#fafafa; border-left: 1px solid #d3d3d3;">
+    	<div style="font-size: 18px; font-weight:bold; display: inline-block; padding-bottom:10px;">
+        	The help you need, when you need it.
+        </div><br />
+        
+        <span style="font-size:14px; color: #c00077; font-weight: bold;">
+        	Get access to your own Scambook Investigator.
+        </span>
+        
+        <p style="line-height: 18px;">
+        	Protect yourself from getting scammed! There are numerous sites out there preying on individuals like you with super deals or free offers. That letter or email you received about an inheritance, probably a scam.
+        	<br /><br />
+        	Shop safely and feel secure with access to your own Scambook Investigator<br />
+            <a href="#" target="_blank" title="Learn more">
+            	<img src="getpremium_btn.png" alt="Get Premium" style="border: none; margin:10px auto 0; vertical-align:central; text-align:center;" />
+            </a>
+        </p>
+		
+        <ul style="line-height:18px; list-style: disc url(bullet.png) outside;">
+        	<li>
+            	<strong>Know What’s Safe</strong>
+                <br />
+                Unsure about a certain website or email/letter received?
+                <br />
+                Your Scambook Investigator will tell you.
+            </li>
+            
+            <br />
+            
+            <li>
+            	<strong>Scambook Fights for you</strong>
+                <br />
+                Have you been a victim of poor business practices? We’ll help you get your resolution.
+           	</li>
+            
+            <br />
+            
+            <li>
+            	<strong>Your Time is Valuable</strong>
+                <br />
+                Our Scambook Investigators will save you time and money by going over your bills for fraudulent charges.
+           	</li>
+            
+            <br />
+        </ul>
+        
+        <div>
+        	<a href="#" style=" float: right; display:inline-block; color: #c00077;" target="new" title="Learn More">
+            	Click here to learn more >
+            </a>
+        </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:0px;" colspan="2">&nbsp;</td>
+  </tr>
+</table>
+</div>
+</body>
+</html>

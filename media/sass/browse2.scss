@@ -1,0 +1,122 @@
+@import "tools.scss";
+@import "compass";
+
+#browse {
+   .list-container {
+		.side-display-container {	
+			float: left; height: auto; margin: 10px 10px 10px 5px; width: 255px; border: 1px solid #E8E8E8;border-radius: 5px 5px 5px 5px; box-shadow: 2px 2px 0 #EEEEEE; background: #fff; overflow: hidden; padding: 15px; position: relative; word-wrap: nowrap;
+			.side-display {
+				margin: 0 0 0 0; display: block; clear: both;
+				li.side-image {
+					height: auto; display: block; float: none; overflow: hidden; max-height: 80px;
+					a { display: block ; }
+				}
+				.side-image {
+					img{ width: 248px; }				
+				}
+				.report-title-main { margin-left: 0; }
+				li { 
+					margin: 0; margin-bottom: 5px !important;
+				}
+				ul.extra-data {
+					word-wrap: nowrap;	display: block;
+				}
+				ul.extra-data li { 
+					display: inline; clear: both; padding: 2px 3px; font-size: 9px; overflow: auto; float: none; width: auto; display: inline-block; float:none; margin: 0 0 5px 5px; word-wrap: nowrap;
+                   a {
+                   	 word-wrap: nowrap;
+                   }				   
+				}
+				li.user-data {
+				    li {
+						display: inline; font-size: 10px; margin: 3px 0 5px 0; height: 30px; line-height: 1.5
+				      }
+				}
+				.user-data { min-height: 40px; 
+				    li.g-user-date, li.g-user-name { display: inline; width: auto;
+					      img { margin: 0 5px 0 0; width: 16px; overflow: hidden; display: inline-block; float:left; }
+					}
+				    li.g-user-date a { color: #666; }	
+                    .tblock {
+				    	display: block; clear: both; height: 10px;
+				   }					 
+				}
+                p {
+                	height: 60px; overflow: hidden; padding: 0; line-height: 16px; margin: 0 0 20px 0;background: url("/media/css/css-img/fade-bot.png") no-repeat scroll center bottom transparent;
+                    a {
+						height: 60px; overflow: hidden; display: block;
+				    }
+				}
+                h2 {
+                	font-size: 18px;
+                }
+				.mod-convo-tools {
+					display: block; height: auto; line-height: 1.5;
+				    a, span {
+						font-size: 9px;
+					}
+				}						
+			}	/* end side display */	
+			div.side-image {
+				height: 20px; clear: both; margin: 0;
+				.center {
+			   		text-align: left; line-height: 1.5;
+					 .counter{ font-size: 12px; }
+				}
+				ul {
+					li {
+						display: inline; margin: 0 10px 0 0;
+					}
+				}
+				.button {
+					border: 0 none; border-radius: 3px 3px 3px 3px; padding: 1px 3px; background: #f1f1f1;
+					a {
+                    font-size: 9px;
+					}
+			    }
+			}
+		}
+		.button { border: 1px solid #CCCCCC; border-radius: 3px 3px 3px 3px; padding: 1px 3px; }
+	} /* list container */	
+	.column-2-main {
+		.list-container {
+			.report-sml {
+				display: block; float: left; font: 13px/23px Verdana, Geneva, sans-serif; margin: 0 6px 6px 0; min-height: 90px; width: 149px;
+			}
+		}
+		.page-header {
+			position: relative; width: 620px;
+			 h2.main-tout, h2 { width: auto; float: left; }
+		}
+	} /* .column-2-main */
+	#toggle_grid_list {
+	   li.tlist {
+			// needs latest Compass, add '@import "compass"' to your scss
+			background-color: rgb(255,255,255); // Old browsers
+			@include filter-gradient(#ffffff, #f2f2f2, vertical); // IE6-9
+			@include background-image(linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%));
+		}
+		li.tgrid, li:hover{
+			color: #fff; text-shadow: none;
+			// needs latest Compass, add '@import "compass"' to your scss
+			background-color: rgb(237,85,152); // Old browsers
+			@include filter-gradient(#ed5598, #b9026d, vertical); // IE6-9
+			@include background-image(linear-gradient(top,  rgba(237,85,152,1) 0%,rgba(185,2,109,1) 100%));
+		}					
+		li:hover, li.tlist a:hover{
+			color: #fff;
+			-moz-transition-property: color, background;
+			-moz-transition-duration: .15s, .15s;
+			-moz-transition-timing-function: linear;
+			-webkit-transition-property: color, background;
+			-webkit-transition-duration: .15s, .15s;
+			-webkit-transition-timing-function: linear;
+		}
+		li.tlist a {
+			background: url(/media/css/css-img/sprites.png) no-repeat -75px -114px; font-weight:normal; color: #666
+		}
+		li.tgrid a {
+			background: url(/media/css/css-img/sprites.png) no-repeat -75px -90px;	font-weight: bold; color: #fff; text-shadow: none;
+		}			
+	}/* #toggle_grid_list */
+}

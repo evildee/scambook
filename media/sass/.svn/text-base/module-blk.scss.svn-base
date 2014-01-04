@@ -1,0 +1,206 @@
+@import "_tools.scss";
+@import "_partial/_tools_informational.scss";
+ 
+
+/* Number Reported Damages */
+
+
+#counter3 {
+	float: left; line-height: 18px; margin: 10px 0 0 0;
+	.usd { float: left; margin: 0 5px 0 0; font-size:16px; }	
+}
+
+
+
+
+/* play video button on about us*/
+.m-btn-play-video {  margin: 70px auto 0px; display: block; background: #de358a; width: 150px; height: 150px; cursor: pointer;
+	-webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+	&:hover { opacity: 0.8; }
+}
+
+
+.m-btn-play-video__pointer { @include informational-sprite-css (pointer-play-video); margin:30px 0 0 60px; float:left; }
+.m-btn-play-video__p { text-align: center; color:#fff; font-weight: bold; }
+
+
+/* about us & how it works paragraphs and img*/
+.m-about-us { float: left; 
+ &.right { float:right; }
+}
+.m-about-us__p { line-height: 24px; color: #2b2b2b; font-size: 14px; width: 500px;}
+.m-about-us__img { clear:both; margin: 10px 0 40px 0; }
+
+.m-how-number-icon-arrow { @include informational-sprite-css (how-title-arrow-down); float:left; margin: 0 10px 4px 0; }
+.m-how-number-icon-arrow__down2 { @include informational-sprite-css (how-title-arrow-down2); float:left; margin: 0 10px 4px 0; }
+.m-how-number-icon-arrow__right { @include informational-sprite-css (how-title-arrow-right); float:left; margin: 0 10px 4px 0; }
+.m-how-number-icon-arrow__header { line-height:38px; } // Only for aligning hight to icon-arrow__right
+
+
+/* Seperate engraved line*/
+.m-engraved-line { clear:both; width: 100%; height:1px; background: #d1d1d1; border-bottom: 1px solid #fff; }
+
+/* Seperate line*/
+.m-line{ clear:both; width: 100%; height:1px; background: #d1d1d1; }
+
+/* call to action part on about us*/
+.m-call-to-action { clear:both; width: 100%; text-align: center; }
+.m-call-to-action__title { font-size: 24px; letter-spacing: 0px; color: #363636; font-family: arial; }
+.m-call-to-action__quote { font-size: 20px; font-family: arial;  color: #8b8b8b; }
+
+/* snippet part on Scambook Press part on about us.*/
+.m-news-column1 { width:186px; float: left; min-height:100px; padding-top: 10px; background: #fff; border-bottom: 1px solid #fff;
+	&.margin-left { margin-left: 10px;}
+	&.margin-left20 { margin-left: 20px;}
+	img { margin: 0 0 17px 0; }
+}
+.m-news-column1__logo-wrapper { height: 40px; overflow: auto; } 
+.m-news-column1__logo { margin:0 auto; 
+	&.reuters {  @include informational-sprite-css (press-logo1); }
+	&.fox-news {  @include informational-sprite-css (press-logo2); margin-top:6px; }
+	&.forbes {  @include informational-sprite-css (press-logo3); margin-top:4px; }
+	&.boston {  @include informational-sprite-css (press-logo4); margin-top:4px; }
+	&.pcworld {  @include informational-sprite-css (press-logo5); margin-top:2px; }
+	&.daily-finance {  @include informational-sprite-css (press-logo6); margin-top:2px; }
+	&.siliconbeat {  @include informational-sprite-css (press-logo7); margin-top:2px; }
+	&.huffington {  @include informational-sprite-css (press-logo8); margin-top:6px; }
+	&.nbc4 {  @include informational-sprite-css (press-logo9); margin-top:0px; }
+}
+.m-news-column1__contents-wrapper { padding:0 8px; }
+.m-news-column1__title { line-height:16px; margin-bottom:6px; }
+.m-news-column1__date { line-height:13px; margin-bottom:20px; color: #9b9b9b; }
+.m-news-column1__quote-wrapper { padding:14px 7px 22px; background: #e6e6e6; } // bottom grey color part
+.m-news-column1__quote { line-height:15px; }
+
+/* Blog Category menu Vertially */
+.m-blog-category-vertical { min-height: 600px; 
+	li.first { margin-bottom: 19px; line-height:24px;}
+	li { margin-bottom: 13px; }
+	a { color:#525252 !important; 
+		&:hover { color:#e31a81 !important; }
+	}
+}
+
+/* featured video snippet */
+.m-featured-video { width: 340px;
+	ul { margin-bottom: 20px; clear:both;}
+	li { width: 165px; min-height:10px; margin-right: 10px; float:left;
+		/* For IE 7 */ 
+		zoom: 1;
+		*display: inline;
+		&.no-margin { margin-right: 0; }
+	}
+}
+.m-featured-video__thumbnail { width: 163px; height: 82px; margin-bottom: 8px; border: 1px solid #d1d1d1; border-radius: 5px; overflow: hidden; background: #f0f0f0; 
+	img { width: 163px; }
+}
+.m-featured-video__title { font-size: 13px; line-height: 14px; height: 20px; overflow: hidden; margin-bottom:4px; }
+.m-featured-video__date { line-height:13px; color: #9b9b9b; }
+
+
+/* Blog Articles Tab snippet */
+
+.m-blog-snippet { width: 342px; height:300px; }
+.m-blog-snippet__tab { height:40px; background:#e5308d; padding:0 10px;
+	li { height:40px; padding:0 20px; margin-right:20px; float:left;
+		a { line-height:14px; color: #fff;
+		&:hover { color: #1a1a1a; }
+		&.active { color: #353535; }
+		}
+	&.active { background: #eee; 
+		a { color: #353535; }
+	}
+	}
+}
+
+
+.m-blog-snippet__icon-popular { margin: 4px auto 0; @include informational-sprite-css (blog-snippet-popular); }
+.active .m-blog-snippet__icon-popular{ @include informational-sprite-css (blog-snippet-popular-active); }
+
+.m-blog-snippet__icon-recent { margin: 4px auto 0; @include informational-sprite-css (blog-snippet-recent); }
+.active .m-blog-snippet__icon-recent { margin: 4px auto 0; @include informational-sprite-css (blog-snippet-recent-active); }
+
+.m-blog-snippet__content { min-height: 10px; padding: 20px 10px 20px; background: #eee; }
+.m-blog-snippet__thumbnail-wrapper { width: 88px; height: 50px; background: #fff; border-radius: 5px; margin-right: 10px;
+	  box-shadow: 0 0 4px #a5a5a5; 
+	  -moz-box-shadow: 0 0 4px #a5a5a5; 
+	  -webkit-box-shadow: 0 0 4px #a5a5a5; 
+} 
+.m-blog-snippet__post-wrapper {} // for showing and hiding entire post under each title.
+.m-blog-snippet__post1 { margin-bottom:20px; float:left; }
+.m-blog-snippet__thumbnail { width: 80px; height:40px; background: #eee; margin: 5px auto 0; overflow: hidden;
+	img { width: 80px; }
+}
+.m-blog-snippet__title { width: 216px; font-size: 13px; line-height: 14px; height: 20px; overflow: hidden; margin-bottom:4px; }
+.m-blog-snippet__date { line-height:13px; color: #9b9b9b; }
+
+/* Blog Articles Tab snippet */
+.m-search-big { width: 100%; height: 50px; background: #ebebeb; border-radius: 5px; margin-bottom: 26px; position: relative;}
+
+.m-search-big__input { background:transparent !important; border: none !important; box-shadow: none !important; margin-top: 8px; width: 90%; height: 37px; font-size: 24px; color: #aeaeae; line-height: 37px; float:left; padding: 0 15px !important; }
+.m-search-big__icon { @include informational-sprite-css (big-search-icon); float:right; margin:10px 10px 0 0; border: none; text-indent: -9000px; }
+
+
+
+/* Testimonial overall rating */ 
+.m-overall-rating { margin: 4px auto 0; width: 980px; height: 80px; margin-bottom:30px; overflow: auto; background: url(/media/css//media/css/css-img//blk/about-us/bg-rating.png) no-repeat center center; }
+.m-overall-rating__title { margin-top:10px; text-align: center; font-size: 20px; font-family: arial; }
+.m-overall-rating__star-big { margin: 0 auto; width: 200px;
+	li { @include informational-sprite-css (rating-star-big); display: inline-block; 		
+		/* For IE 7 */ 
+		zoom: 1;
+		*display: inline;}
+	li.half { @include informational-sprite-css (rating-star-big-half); }
+}
+
+/* User Testimonial */
+.m-testimonial__shell { width: 310px; float:left; margin-right:20px; }
+.m-testimonial__comment-wrapper {  height: 230px; margin-bottom: 37px; padding:15px 15px 20px; border-radius: 5px; background: #fff; border: 3px solid #b0b0b0 ; position: relative; }
+.m-testimonial__comment-pointer { position:absolute ; left: 30px; bottom: -33px; @include informational-sprite-css (comment-pointer);}
+.m-testimonial__user-rating { margin-bottom: 10px;
+	li { 
+		@include informational-sprite-css (rating-star-small); display: inline-block; 		
+		/* For IE 7 */ 
+		zoom: 1;
+		*display: inline;
+	}
+	li.none { background: none; }
+}
+.m-testimonial__usericon { @include informational-sprite-css (user-icon-human); float: left; margin-right: 10px; }
+.m-testimonial__date { line-height:13px; color: #9b9b9b; }
+
+
+
+/* m-about-menu sticky menu */
+.m-about-menu { width: 100%; background: #de338a; z-index: 10; opacity:0.96; position: fixed; top:0;}
+.m-about-menu__container { width: 980px; height:42px; margin: 0 auto; 
+	li { height: 42px; line-height: 42px; padding:0 20px; margin-right: 30px; display: inline-block; 
+		/* For IE 7 */ 
+		zoom: 1;
+		*display: inline;
+
+		&.active { background:#b0095e; }
+		a { color:#fff !important; font-size:16px; font-family: arial; }
+		a:hover { color: #630032 !important; }
+	}
+}
+.m-about-menu__button {
+	margin-top:5px;
+	font-weight:bold;
+	color: #3c3c3c !important;
+	padding: 9px 13px 10px; display: inline-block;
+	@include border-radius(5px);
+	background: #fff;
+	&:hover { color: #fff !important; background: #b0095e; }
+}
+
+
+/* m-about-menu sticky menu */
+.m-press-info {}
+.m-press-info__icon { float:left; margin-right: 14px; @include informational-sprite-css (press-info-announcement); 
+	&.resource { @include informational-sprite-css (press-info-contact); }
+	&.contact { @include informational-sprite-css (press-info-resource); }
+}
+.m-press-info__header { line-height:37px; }

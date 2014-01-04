@@ -1,0 +1,105 @@
+.linklist, .es-linklist { margin:0 auto; height:30px; display:block; }
+.linklist li{ float:left; height:45px;}
+.linklist #btn-cat1, .linklist #btn-cat2, .linklist #btn-cat3, .linklist #btn-cat4, .linklist #btn-cat5, .linklist #btn-cat6, .linklist #btn-cat7, .linklist #btn-cat8, .es-linklist #btn-cat1, .es-linklist #btn-cat2, .es-linklist #btn-cat3, .es-linklist #btn-cat4, .es-linklist #btn-cat5, .es-linklist #btn-cat6, .es-linklist #btn-cat7, .es-linklist #btn-cat8 { border:none; cursor: pointer; cursor: hand; display:block; float:left;
+
+font-size:12px; font-family:Century Gothic, "Trebuchet MS", Helvetica, sans-serif; font-weight:bold; text-transform:uppercase; padding:10px 3px 0 7px; border:3px solid #9EEDEB; height:35px; text-shadow:1px 1px 0px #000;
+
+-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; -webkit-border-radius:10px;
+
+
+background: #414141; /* Old browsers */ background: -moz-linear-gradient(top, #737373 0%, #414141 37%); /* FF3.6+ */	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #737373), color-stop(37%, #414141) ); /* Chrome,Safari4+ */	background: -webkit-linear-gradient(top, #737373 0%, #414141 37%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top, #737373 0%, #414141 37%); /* Opera 11.10+ */	background: -ms-linear-gradient(top, #737373 0%, #414141 37%); /* IE10+ */ background: linear-gradient(top, #737373 0%, #414141 37%); /* W3C */	filter: progid:DXImageTransform.Microsoft.gradient(   startColorstr='#737373', endColorstr='#414141', GradientType=0 ); /* IE6 */
+}
+
+/* /end submit v3 */
+
+
+/* old submit stuff 
+.linklist #btn-cat1:active, .linklist #btn-cat2:active, .linklist #btn-cat3:active, .linklist #btn-cat4:active, .linklist #btn-cat5:active, .linklist #btn-cat6:active, .linklist #btn-cat7:active, .linklist #btn-cat8:active
+{margin-top:1px;}
+.linklist .active #btn-cat1,
+.linklist .active #btn-cat2,
+.linklist .active #btn-cat3,
+.linklist .active #btn-cat4,
+.linklist .active #btn-cat5,
+.linklist .active #btn-cat6,
+.linklist .active #btn-cat7,
+.linklist .active #btn-cat8
+ {
+background: #ba006c; /* Old browsers */ background: -moz-linear-gradient(top, #c80084 0%, #a40051 37%, #a40051 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c80084), color-stop(37%, #a40051), color-stop(100%, #a40051)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top, #c80084 0%, #a40051 37%, #a40051 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top, #c80084 0%, #a40051 37%, #a40051 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top, #c80084 0%, #a40051 37%, #a40051 100%); /* IE10+ */ background: linear-gradient(top, #c80084 0%, #a40051 37%, #a40051 100%); /* W3C */  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c80084', endColorstr='#a40051', GradientType=0 ); /* IE6-9 */}
+
+.linklist #btn-cat1:hover, .linklist #btn-cat2:hover, .linklist #btn-cat3:hover, .linklist #btn-cat4:hover, .linklist #btn-cat5:hover, .linklist #btn-cat6:hover, .linklist #btn-cat7:hover, .linklist #btn-cat8:hover
+{
+	color:#fff;
+background: #cc0077; /* Old browsers */ background: -moz-linear-gradient(top, #c80084 0%, #a40051 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c80084), color-stop(100%, #a40051)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top, #c80084 0%, #a40051 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top, #c80084 0%, #a40051 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top, #c80084 0%, #a40051 100%); /* IE10+ */ background: linear-gradient(top, #c80084 0%, #a40051 100%); /* W3C */  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c80084', endColorstr='#a40051', GradientType=0 ); /* IE6-9 */
+	}
+
+
+.linklist #btn-cat1 { width:78px; }
+.linklist #btn-cat2 { width:80px; }
+.linklist #btn-cat3 { width:110px; }
+.linklist #btn-cat4 { width:122px; }
+.linklist #btn-cat5 { width:95px; }
+.linklist #btn-cat6 { width:50px; }
+.linklist #btn-cat7 { width:111px; }
+.linklist #btn-cat8 { width:80px; }
+*/
+
+/*
+.linklist #btn-cat1 { width:98px; height:42px; background:url(css-img/btn-homepanel-sml.png) 0 0; }
+.linklist #btn-cat1:hover { background:url(css-img/btn-homepanel-sml.png) 0 42px; }
+.linklist #btn-cat1:active { background:url(css-img/btn-homepanel-sml.png) 0 1px; }
+.linklist #btn-cat2 { width:67px; height:42px; background:url(css-img/btn-homepanel-sml.png) -98px 0; }
+.linklist #btn-cat2:hover { background:url(css-img/btn-homepanel-sml.png) -98px 42px; }
+.linklist #btn-cat2:active { background:url(css-img/btn-homepanel-sml.png) -98px 1px; }
+.linklist #btn-cat3 { width:110px; height:42px; background:url(css-img/btn-homepanel-sml.png) -165px 0; }
+.linklist #btn-cat3:hover { background:url(css-img/btn-homepanel-sml.png) -165px 42px; }
+.linklist #btn-cat3:active { background:url(css-img/btn-homepanel-sml.png) -165px 1px; }
+.linklist #btn-cat4 { width:142px; height:42px; background:url(css-img/btn-homepanel-sml.png) -275px 0; }
+.linklist #btn-cat4:hover { background:url(css-img/btn-homepanel-sml.png) -275px 42px; }
+.linklist #btn-cat4:active { background:url(css-img/btn-homepanel-sml.png) -275px 1px; }
+.linklist #btn-cat5 { width:155px; height:42px; background:url(css-img/btn-homepanel-sml.png) -417px 0; }
+.linklist #btn-cat5:hover { background:url(css-img/btn-homepanel-sml.png) -417px 42px; }
+.linklist #btn-cat5:active { background:url(css-img/btn-homepanel-sml.png) -417px 1px; }
+.linklist #btn-cat6 { width:63px; height:42px; background:url(css-img/btn-homepanel-sml.png) -572px 0; }
+.linklist #btn-cat6:hover { background:url(css-img/btn-homepanel-sml.png) -572px 42px; }
+.linklist #btn-cat6:active { background:url(css-img/btn-homepanel-sml.png) -572px 1px; }
+.linklist #btn-cat7 { width:121px; height:42px; background:url(css-img/btn-homepanel-sml.png) -635px 0; }
+.linklist #btn-cat7:hover { background:url(css-img/btn-homepanel-sml.png) -635px 42px; }
+.linklist #btn-cat7:active { background:url(css-img/btn-homepanel-sml.png) -635px 1px; }
+.linklist .active #btn-cat1 { background:url(css-img/btn-homepanel-sml.png) 0 42px; }
+.linklist .active #btn-cat2 { background:url(css-img/btn-homepanel-sml.png) -98px 42px; }
+.linklist .active #btn-cat3 { background:url(css-img/btn-homepanel-sml.png) -165px 42px; }
+.linklist .active #btn-cat4 { background:url(css-img/btn-homepanel-sml.png) -275px 42px; }
+.linklist .active #btn-cat5 { background:url(css-img/btn-homepanel-sml.png) -417px 42px; }
+.linklist .active #btn-cat6 { background:url(css-img/btn-homepanel-sml.png) -572px 42px; }
+.linklist .active #btn-cat7 { background:url(css-img/btn-homepanel-sml.png) -635px 42px; }
+*/
+.es-linklist #btn-cat1 { width:84px; height:42px; background:url(css-img/btn-homepanel-sml-es.png) 0 0; }
+.es-linklist #btn-cat1:hover { background:url(css-img/btn-homepanel-sml-es.png) 0 42px; }
+.es-linklist #btn-cat1:active { background:url(css-img/btn-homepanel-sml-es.png) 0 1px; }
+.es-linklist #btn-cat2 { width:89px; height:42px; background:url(css-img/btn-homepanel-sml-es.png) -84px 0; }
+.es-linklist #btn-cat2:hover { background:url(css-img/btn-homepanel-sml-es.png) -84px 42px; }
+.es-linklist #btn-cat2:active { background:url(css-img/btn-homepanel-sml-es.png) -84px 1px; }
+.es-linklist #btn-cat3 { width:103px; height:42px; background:url(css-img/btn-homepanel-sml-es.png) -173px 0; }
+.es-linklist #btn-cat3:hover { background:url(css-img/btn-homepanel-sml-es.png) -173px 42px; }
+.es-linklist #btn-cat3:active { background:url(css-img/btn-homepanel-sml-es.png) -173px 1px; }
+.es-linklist #btn-cat4 { width:154px; height:42px; background:url(css-img/btn-homepanel-sml-es.png) -276px 0; }
+.es-linklist #btn-cat4:hover { background:url(css-img/btn-homepanel-sml-es.png) -276px 42px; }
+.es-linklist #btn-cat4:active { background:url(css-img/btn-homepanel-sml-es.png) -276px 1px; }
+.es-linklist #btn-cat5 { width:125px; height:42px; background:url(css-img/btn-homepanel-sml-es.png) -430px 0; }
+.es-linklist #btn-cat5:hover { background:url(css-img/btn-homepanel-sml-es.png) -430px 42px; }
+.es-linklist #btn-cat5:active { background:url(css-img/btn-homepanel-sml-es.png) -430px 1px; }
+.es-linklist #btn-cat6 { width:73px; height:42px; background:url(css-img/btn-homepanel-sml-es.png) -555px 0; }
+.es-linklist #btn-cat6:hover { background:url(css-img/btn-homepanel-sml-es.png) -555px 42px; }
+.es-linklist #btn-cat6:active { background:url(css-img/btn-homepanel-sml-es.png) -555px 1px; }
+.es-linklist #btn-cat7 { width:122px; height:42px; background:url(css-img/btn-homepanel-sml-es.png) -628px 0; }
+.es-linklist #btn-cat7:hover { background:url(css-img/btn-homepanel-sml-es.png) -628px 42px; }
+.es-linklist #btn-cat7:active { background:url(css-img/btn-homepanel-sml-es.png) -628px 1px; }
+.es-linklist .active #btn-cat1 { background:url(css-img/btn-homepanel-sml-es.png) 0 42px; }
+.es-linklist .active #btn-cat2 { background:url(css-img/btn-homepanel-sml-es.png) -84px 42px; }
+.es-linklist .active #btn-cat3 { background:url(css-img/btn-homepanel-sml-es.png) -173px 42px; }
+.es-linklist .active #btn-cat4 { background:url(css-img/btn-homepanel-sml-es.png) -276px 42px; }
+.es-linklist .active #btn-cat5 { background:url(css-img/btn-homepanel-sml-es.png) -430px 42px; }
+.es-linklist .active #btn-cat6 { background:url(css-img/btn-homepanel-sml-es.png) -555px 42px; }
+.es-linklist .active #btn-cat7 { background:url(css-img/btn-homepanel-sml-es.png) -628px 42px; }
+/* spanish buttons */

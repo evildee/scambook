@@ -1,0 +1,139 @@
+@import "tools.scss";
+@import "compass";
+
+/* Selectmenu
+----------------------------------*/
+.ui-selectmenu {
+	display: block; font-size: 12px; font-weight: normal; display: inline-block; position: relative; vertical-align: middle; text-decoration: none; overflow: hidden; zoom: 1; border-radius: 3px; border: 1px solid #ccc; padding: 4px 10px;
+	}
+.ui-selectmenu:hover { border: 1px solid #ccc; }
+.ui-selectmenu-icon { position:absolute; right:6px; margin-top:-8px; top: 50%; }
+.ui-selectmenu-menu { padding:0; margin:0; position:absolute; top: 0; display: none; z-index: 1005;} /* z-index: 1005 to make selectmenu work with dialog */
+.ui-selectmenu-menu  ul { padding:10px; margin:0; list-style:none; position: relative; overflow: auto; overflow-y: auto ; overflow-x: hidden; -webkit-overflow-scrolling: touch;} 
+.ui-selectmenu-open { display: block; } //container around the dropdown list
+.ui-selectmenu-menu-popup { margin-top: -1px; }
+.ui-selectmenu-menu li { padding:0; margin:0; display: block; border-top: 1px dotted transparent; border-bottom: 1px dotted transparent; border-right-width: 0 !important; border-left-width: 0 !important; font-weight: normal !important; }
+.ui-selectmenu-menu li a,.ui-selectmenu-status { color: $global-font-color !important; line-height: 15px; display: block; outline:none; text-decoration:none; }
+.ui-selectmenu-menu li.ui-state-disabled a, .ui-state-disabled { cursor: default; }
+.ui-selectmenu-menu li.ui-selectmenu-hasIcon a,
+.ui-selectmenu-hasIcon .ui-selectmenu-status { padding-left: 20px; position: relative; margin-left: 5px; }
+.ui-selectmenu-menu li .ui-icon, .ui-selectmenu-status .ui-icon { position: absolute; top: 1em; margin-top: -8px; left: 0; }
+.ui-selectmenu-status { line-height: 15px; }
+.ui-selectmenu-menu li span,.ui-selectmenu-status span { display:block; margin-bottom: .2em; }
+.ui-selectmenu-menu li .ui-selectmenu-item-header { font-weight: bold; }
+.ui-selectmenu-menu li .ui-selectmenu-item-footer { opacity: .8; }
+/* for optgroups */
+.ui-selectmenu-menu .ui-selectmenu-group {  }
+.ui-selectmenu-menu .ui-selectmenu-group .ui-selectmenu-group-label { line-height: 15px; display:block; padding: .6em .5em 0; font-weight: bold; }
+.ui-selectmenu-menu .ui-selectmenu-group ul { margin: 0; padding: 0; }
+/* IE6 workaround (dotted transparent borders) */
+* html .ui-selectmenu-menu li { border-color: pink; filter:chroma(color=pink); width:100%; }
+* html .ui-selectmenu-menu li a { position: relative }
+/* IE7 workaround (opacity disabled) */
+*+html .ui-state-disabled, *+html .ui-state-disabled a { color: silver; }
+
+.ui-selectmenu-menu-dropdown {
+	border-radius: 3px; border: 1px solid #ccc; border-top: 0; font-size: 12px; box-shadow: 8px 8px 18px rgba(0,0,0,.1), -8px 8px 18px rgba(0,0,0,.1); -webkit-box-shadow: 8px 8px 18px rgba(0,0,0,.1), -8px 8px 18px rgba(0,0,0,.1);
+	li {
+		a { padding: 5px 15px; margin:0 -15px; }
+		a:hover { background: #dff4ff; }
+	}
+}
+
+/* Width Classes */
+select.xxxtiny,
+.ui-selectmenu.xxxtiny,
+.ui-selectmenu-menu.xxxtiny {
+  width: 25px !important;
+}
+select.xxtiny,
+.ui-selectmenu.xxtiny,
+.ui-selectmenu-menu.xxtiny {
+  width: 35px !important;
+}
+select.xtiny,
+.ui-selectmenu.xtiny,
+.ui-selectmenu-menu.xtiny {
+  width: 45px !important;
+}
+select.tiny,
+.ui-selectmenu.tiny,
+.ui-selectmenu-menu.tiny {
+  width: 55px !important;
+}
+select.xsmall,
+.ui-selectmenu.xsmall,
+.ui-selectmenu-menu.xsmall {
+  width: 50px !important;
+}
+select.small,
+.ui-selectmenu.small,
+.ui-selectmenu-menu.small {
+  width: 75px !important;
+}
+select.small-medium,
+.ui-selectmenu.small-medium,
+.ui-selectmenu-menu.small-medium {
+  width: 115px !important;
+}
+select.medium,
+.ui-selectmenu.medium,
+.ui-selectmenu-menu.medium {
+  width: 150px !important;
+}
+select.mediumplus,
+.ui-selectmenu.mediumplus,
+.ui-selectmenu-menu.mediumplus {
+  width: 200px !important;
+}
+select.large,
+.ui-selectmenu.large,
+.ui-selectmenu-menu.large {
+  width: 250px !important;
+}
+select.xlarge,
+.ui-selectmenu.xlarge,
+.ui-selectmenu-menu.xlarge {
+  width: 300px !important;
+}
+.ui-selectmenu.xxlarge,
+.ui-selectmenu-menu.xxlarge {
+  width: 350px !important;
+}
+/* Width for inputs */
+input.xxxtiny {
+  width: 15px !important;
+}
+input.xxtiny {
+  width: 25px !important;
+}
+input.xtiny {
+  width: 35px !important;
+}
+input.tiny {
+  width: 45px !important;
+}
+input.xsmall {
+  width: 40px !important;
+}
+input.small {
+  width: 65px !important;
+}
+input.small-medium {
+  width: 105px !important;
+}
+input.medium {
+  width: 140px !important;
+}
+input.mediumplus {
+  width: 190px !important;
+}
+input.large {
+  width: 240px !important;
+}
+input.xlarge {
+  width: 290px !important;
+}
+input.xxlarge {
+  width: 340px !important;
+}

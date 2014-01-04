@@ -1,0 +1,81 @@
+@charset "utf-8";
+html{overflow-y:scroll;} 
+
+#start-here .home-input {width:505px; text-indent:0px; text-align:center;}
+/* Forms */
+
+.report-sml .profile-name {width:80%;}
+.report-sml .report-date {width:80%;}
+.group-navi .divide {display:none;}
+#group-page .group-navi span.count {padding:3px 5px 3px 5px;}
+#header .search-box {float:right; margin-right:0px; padding-right:0px;}
+.cufon, h2, h3 {z-index:0; position: relative;}
+
+
+/* Inside slider shadow */
+.mb-left-shadow, .mb-right-shadow {
+  background: repeat-y scroll 0 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 10px;
+}
+
+.mb-left-shadow {
+  background-image: url("css-img/movingbox-leftshadow.png");
+  left: 0;
+}
+
+.mb-right-shadow {
+  background-image: url("css-img/movingbox-rightshadow.png");
+  right: 0;
+}
+
+.mb-inside a {font-weight:bold; line-height:15px;}
+/*** Left & Right Navigation Arrows ***/
+a.mb-scrollButtons {
+  background: url(css-img/movingbox-arrows.png) no-repeat;
+  margin: 0;
+  top: 60px;
+/*  the margin-top below may be causing problems, so adjust the % above... */
+/*  margin-top: -29px; if you change the arrow images, you may have to adjust this (1/2 height of arrow image) */
+  zoom: 1;
+}
+
+/* IE 6 */
+* html #b-dash .bd-foot {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+
+
+/* biz panels */
+.main-status .status-right {margin-left:318px;}
+
+/* browse page pagination */
+#browse .page-header {margin:0px;}
+#browse .page-footer {margin:0px;}
+#browse h1 {margin:60px 0 0 0;}
+
+/* dash v2 */
+
+#dash-v2 .left-con .boxes .block span {margin-top:-24px; margin-right:5px;}
+#dash-v2 .view-btn {display:block; position:absolute; margin-top:-47px; margin-right:10px;}
+#dash-v2 .percentage .sml {display:block; margin-top:5px}
+
+#search2 .view-btn {margin-top:-18px;}
+
+/* homepanel cat6 */
+a.cat6 {margin-top:0px;}
+
+/* when box shadows dont work in IE this makes a border */
+.submit-bg-mid-821 {border:1px #ccc dashed;}
+
+/* moves down div for report submit */
+#submission #general-form-2 {padding-top:40px;}
+
+#subform .post-btn {width:150px; padding:0 15px;}
+
+/* user dashboard */
+.box-container-round .panel-column-main .steps li {position:static;}
+.box-container-round .panel-column-main .steps li.done .icon {margin-top:-18px; margin-left:-64px;}
