@@ -290,3 +290,5 @@ a { color: #00A8A8; }
 #exitpopup .heading { font-size: 18px; font-weight: bold; color: #557474; }
 #exitpopup .close-button { right: -15px; top: -15px; position: absolute; display: block; }
 #exitpopup .button1 { margin: 20px auto 20px auto; }
+
+.badge-container a { color: transparent; }
